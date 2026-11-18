@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AP Macroeconomics Unit 5 study guide: Long-run consequences of stabilization policies</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,400;7..72,600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F5F7FA;--paper:#FFFFFF;--ink:#16213A;--ink2:#4A5672;--ink3:#6B7690;--line:#DCE2EC;--grid:#EBEFF5;
+  --ad:#2563C9;--sr:#D24B2A;--lr:#16213A;--pt:#16213A;
+  --hl:#FFE27A;--hl-ink:#3A2F00;--good:#1D7547;--good-bg:#E2F3E9;--bad:#B3261E;--bad-bg:#FBE8E6;
+  --tip-bg:#EAF1FD;--tip-line:#2563C9;--book:#6B47B8;--book-bg:#F3EFFB;--trap-bg:#FFF4E0;--trap-line:#C77700;
+  --serif:"Literata",Georgia,"Times New Roman",serif;--sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  color-scheme:light;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1420;--paper:#151D2C;--ink:#E6EBF4;--ink2:#AEB8CB;--ink3:#8692A8;--line:#28334A;--grid:#1B2435;
+  --ad:#74A4FF;--sr:#FF8763;--lr:#E6EBF4;--pt:#E6EBF4;
+  --hl:#544410;--hl-ink:#FFE9A6;--good:#72D29E;--good-bg:#163124;--bad:#FF8F85;--bad-bg:#3A1C1A;
+  --tip-bg:#17244A;--tip-line:#74A4FF;--book:#B9A2FF;--book-bg:#1F1A33;--trap-bg:#33260E;--trap-line:#F2B44A;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1420;--paper:#151D2C;--ink:#E6EBF4;--ink2:#AEB8CB;--ink3:#8692A8;--line:#28334A;--grid:#1B2435;
+  --ad:#74A4FF;--sr:#FF8763;--lr:#E6EBF4;--pt:#E6EBF4;
+  --hl:#544410;--hl-ink:#FFE9A6;--good:#72D29E;--good-bg:#163124;--bad:#FF8F85;--bad-bg:#3A1C1A;
+  --tip-bg:#17244A;--tip-line:#74A4FF;--book:#B9A2FF;--book-bg:#1F1A33;--trap-bg:#33260E;--trap-line:#F2B44A;color-scheme:dark}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 16px);scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.65;-webkit-text-size-adjust:100%}
+img,svg{max-width:100%}
+a{color:var(--ad)}
+:focus-visible{outline:2px solid var(--ad);outline-offset:2px}
+.layout{display:grid;grid-template-columns:250px minmax(0,1fr);gap:48px;max-width:1160px;margin:0 auto;padding:0 24px}
+@media (max-width:900px){.layout{grid-template-columns:minmax(0,1fr);gap:0;padding:0 16px}}
+/* sidebar */
+nav.toc{position:sticky;top:calc(env(safe-area-inset-top,0px) + 24px);align-self:start;padding:32px 0;max-height:100vh;overflow:auto}
+nav.toc h2{font-family:var(--sans);font-size:14px;font-weight:600;color:var(--ink3);margin:0 0 10px;letter-spacing:.01em}
+nav.toc ol{list-style:none;margin:0;padding:0}
+nav.toc li a{display:flex;gap:10px;align-items:baseline;padding:6px 8px;border-radius:6px;text-decoration:none;color:var(--ink2);font-size:14.5px;line-height:1.35}
+nav.toc li a:hover{background:var(--grid);color:var(--ink)}
+nav.toc li a .n{font-variant-numeric:tabular-nums;color:var(--ink3);min-width:28px;font-size:13px}
+nav.toc li a .ck{margin-left:auto;color:var(--good);font-size:13px;visibility:hidden}
+nav.toc li a.done .ck{visibility:visible}
+.progress{margin:18px 8px 0;font-size:13px;color:var(--ink3)}
+.bar{height:6px;border-radius:3px;background:var(--line);margin-top:6px;overflow:hidden}
+.bar span{display:block;height:100%;width:0;background:var(--good);transition:width .3s}
+@media (max-width:900px){
+  nav.toc{position:static;max-height:none;padding:16px 0 0}
+  nav.toc ol{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px}
+  nav.toc li a{white-space:nowrap;border:1px solid var(--line);background:var(--paper)}
+  nav.toc li a .ck{margin-left:4px}
+}
+main{max-width:760px;padding:32px 0 96px;min-width:0}
+/* hero */
+.hero{padding:24px 0 8px;border-bottom:1px solid var(--line);margin-bottom:8px}
+.hero .unit{font-size:15px;color:var(--ink3);margin:0 0 6px}
+.hero h1{font-family:var(--serif);font-weight:600;font-size:clamp(34px,6vw,52px);line-height:1.08;margin:0 0 16px;letter-spacing:-.01em}
+.hero p.lede{font-size:19px;color:var(--ink2);max-width:62ch;margin:0 0 20px}
+.hero-graph{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:12px;margin:8px 0 20px}
+.roadmap{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:10px;margin:0 0 24px;padding:0;list-style:none}
+.roadmap li{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px;font-size:15px;line-height:1.45}
+.roadmap li b{display:block;font-weight:600;margin-bottom:2px}
+/* sections */
+section.mod{padding:40px 0 8px;border-bottom:1px solid var(--line)}
+section.mod>header .modnum{font-size:15px;color:var(--ink3);margin:0}
+section.mod h2{font-family:var(--serif);font-weight:600;font-size:clamp(26px,4vw,34px);line-height:1.15;margin:4px 0 14px}
+h3{font-family:var(--serif);font-weight:600;font-size:22px;line-height:1.25;margin:34px 0 10px}
+h4{font-size:17px;font-weight:600;margin:22px 0 6px}
+p{margin:0 0 14px}
+.big{font-size:18.5px;color:var(--ink);border-left:4px solid var(--ad);padding:4px 0 4px 16px;margin:0 0 22px;font-family:var(--serif);line-height:1.6}
+dl.terms{margin:16px 0 20px}
+dl.terms dt{font-weight:600;font-size:17.5px;margin-top:20px;color:var(--ink)}
+dl.terms dd{margin:4px 0 0;color:var(--ink)}
+dl.terms dd .eg{display:block;margin-top:6px;color:var(--ink2);font-size:15.5px}
+ul,ol{padding-left:22px;margin:0 0 14px}
+li{margin:4px 0}
+mark{background:var(--hl);color:var(--hl-ink);padding:0 3px;border-radius:3px}
+.formula{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:16px 20px;margin:18px 0}
+.formula .eq{font-family:var(--serif);font-size:21px;line-height:1.5;margin:4px 0}
+.formula .eq span.hlx{background:var(--hl);color:var(--hl-ink);padding:2px 8px;border-radius:5px}
+.formula .why{color:var(--ink2);font-size:15px;margin:6px 0 0}
+.callout{border-radius:0;padding:12px 16px;margin:18px 0;font-size:16px}
+.callout b.k{display:block;font-weight:600;margin-bottom:2px}
+.tip{background:var(--tip-bg);border-left:4px solid var(--tip-line)}
+.book{background:var(--book-bg);border-left:4px solid var(--book);border-radius:0 12px 12px 0;padding:18px 20px 6px;margin:30px 0}
+.book>.bh{font-size:13.5px;font-weight:600;color:var(--book);margin:0 0 2px}
+.book>h4:first-of-type{margin-top:6px}
+.book h4{font-family:var(--serif);font-size:19px}
+.book figure{background:var(--paper)}
+.aptip{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--book);padding:12px 16px;margin:16px 0;font-size:16px}
+.aptip b.k{display:block;font-weight:600;color:var(--book);margin-bottom:2px}
+.aptip p:last-child{margin:0}
+.book table{min-width:520px}
+.trap{background:var(--trap-bg);border-left:4px solid var(--trap-line)}
+.callout p:last-child{margin:0}
+figure{margin:22px 0;background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:14px 14px 10px}
+figure .graphs{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px}
+figure .gwrap .gt{font-size:14px;font-weight:600;text-align:center;margin:2px 0 0;color:var(--ink)}
+figcaption{font-size:14.5px;color:var(--ink2);margin-top:10px;line-height:1.5}
+.tablewrap{overflow-x:auto;margin:16px 0;border:1px solid var(--line);border-radius:12px;background:var(--paper)}
+table{border-collapse:collapse;width:100%;font-size:15px;min-width:560px}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;background:var(--grid)}
+tr:last-child td{border-bottom:0}
+td.up{color:var(--good);font-weight:600}td.down{color:var(--bad);font-weight:600}
+details.check{background:var(--paper);border:1px solid var(--line);border-radius:10px;margin:10px 0;padding:0}
+details.check summary{cursor:pointer;padding:12px 16px;font-weight:500;list-style:none;display:flex;gap:10px}
+details.check summary::-webkit-details-marker{display:none}
+details.check summary::before{content:"+";font-weight:600;color:var(--ad);width:14px}
+details.check[open] summary::before{content:"−"}
+details.check .ans{padding:0 16px 14px 40px;color:var(--ink2)}
+.studied{margin:28px 0 24px;display:flex;align-items:center;gap:10px;font-size:15px;color:var(--ink2)}
+.studied button{font:inherit;font-size:15px;padding:8px 14px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer}
+.studied button[aria-pressed="true"]{background:var(--good-bg);border-color:var(--good);color:var(--good)}
+/* widgets */
+.widget{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px;margin:22px 0}
+.widget h4{margin:0 0 4px;font-family:var(--serif);font-size:19px}
+.widget .sub{color:var(--ink2);font-size:15px;margin:0 0 14px}
+.ctl{display:grid;grid-template-columns:170px minmax(0,1fr) 64px;align-items:center;gap:12px;margin:8px 0}
+.ctl label{font-size:15px;color:var(--ink2)}
+.ctl output{font-weight:600;text-align:right;font-variant-numeric:tabular-nums}
+@media (max-width:520px){.ctl{grid-template-columns:minmax(0,1fr) 56px}.ctl label{grid-column:1 / -1}}
+input[type=range]{width:100%;accent-color:var(--ad)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin:14px 0}
+.stat{background:var(--grid);border-radius:10px;padding:10px 12px}
+.stat .l{font-size:13px;color:var(--ink2)}
+.stat .v{font-size:22px;font-weight:600;font-variant-numeric:tabular-nums}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 4px}
+.btn{font:inherit;font-size:14.5px;padding:8px 12px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer}
+.btn:hover{border-color:var(--ink3)}
+.btn.on{background:var(--tip-bg);border-color:var(--ad)}
+.status{background:var(--grid);border-radius:10px;padding:12px 14px;margin:10px 0;font-size:15.5px}
+.status .mini{display:block;font-size:14px;color:var(--ink2);margin-top:4px;font-variant-numeric:tabular-nums}
+/* quiz + sorter */
+.q{border-top:1px solid var(--line);padding:16px 0}
+.q:first-of-type{border-top:0}
+.q .prompt{font-weight:500;margin:0 0 10px}
+.opts{display:grid;gap:8px}
+.opt{font:inherit;font-size:15.5px;text-align:left;padding:10px 14px;border-radius:8px;border:1px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;line-height:1.4}
+.opt:hover:not(:disabled){border-color:var(--ink3)}
+.opt.right{background:var(--good-bg);border-color:var(--good);color:var(--good)}
+.opt.wrong{background:var(--bad-bg);border-color:var(--bad);color:var(--bad)}
+.opt:disabled{cursor:default}
+.explain{margin:10px 0 0;font-size:15px;color:var(--ink2);display:none}
+.explain.show{display:block}
+.score{font-weight:600;font-variant-numeric:tabular-nums}
+.sortopts{display:flex;flex-wrap:wrap;gap:6px}
+.sortopts .opt{padding:7px 11px;font-size:14px}
+/* glossary */
+.search{width:100%;font:inherit;font-size:16px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);background:var(--paper);color:var(--ink);margin:6px 0 14px}
+.gl{display:grid;gap:8px}
+.gl .g{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:10px 14px}
+.gl .g b{font-weight:600}
+.gl .g .m{font-size:13px;color:var(--ink3);margin-left:6px}
+.gl .g p{margin:2px 0 0;font-size:15.5px;color:var(--ink2)}
+.empty{color:var(--ink2);font-size:15px}
+footer{color:var(--ink3);font-size:14px;padding:32px 0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+svg text{font-family:var(--sans)}
+.gsvg{display:block;max-width:440px;margin:0 auto}
+.graphs .gsvg{max-width:380px}
+#labGraph .gsvg{max-width:500px}
+.hero-graph .gsvg{max-width:460px}
+.status b{font-weight:600}
+.tacct{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--paper);font-size:15px;margin:10px 0}
+.tacct>div{padding:10px 12px}
+.tacct>div:first-child{border-right:2px solid var(--ink)}
+.tacct .th{font-weight:600;border-bottom:2px solid var(--ink);padding-bottom:6px;margin-bottom:6px}
+.tacct .row{display:flex;justify-content:space-between;gap:8px}
+.tpair{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin:14px 0}
+.tpair .cap{font-size:14px;font-weight:600;margin:0 0 4px}
+.chain{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:14px 0;font-size:15px}
+.chain span{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.chain i{font-style:normal;color:var(--ink3)}
+
+:root{--kid-bg:#E7F6F3;--kid-line:#0F8A7E;--kid-ink:#0B5E56}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--kid-bg:#102A28;--kid-line:#5FD3C6;--kid-ink:#8FE6DB}}
+:root[data-theme="dark"]{--kid-bg:#102A28;--kid-line:#5FD3C6;--kid-ink:#8FE6DB}
+.eli5{display:none;background:var(--kid-bg);border:2px solid var(--kid-line);border-radius:14px;padding:16px 18px;margin:18px 0 22px}
+body.kid .eli5{display:block}
+.eli5 .kh{font-weight:600;color:var(--kid-ink);font-size:15px;margin:0 0 8px}
+.eli5 p{margin:0 0 10px}
+.eli5 h4{font-family:var(--sans);font-size:16px;margin:14px 0 6px;color:var(--kid-ink)}
+.eli5 dl{margin:0}
+.eli5 dt{font-weight:600;margin-top:10px}
+.eli5 dd{margin:2px 0 0}
+.kidtoggle{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:20;display:flex;align-items:center;gap:8px;padding:10px 16px;border-radius:999px;border:2px solid var(--kid-line);background:var(--paper);color:var(--ink);font:600 15px var(--sans);cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.15)}
+.kidtoggle[aria-pressed="true"]{background:var(--kid-line);color:var(--paper)}
+.kidinline{margin:6px 0 0;border:2px solid var(--kid-line);background:var(--kid-bg);color:var(--kid-ink);font:600 15px var(--sans);padding:8px 14px;border-radius:10px;cursor:pointer}
+.g .kd{display:none;color:var(--kid-ink)}
+body.kid .g .kd{display:block}
+body.kid .g .rd{display:none}
+</style>
+</head>
+<body>
+<div class="layout">
+<nav class="toc" aria-label="Contents">
+  <h2>Contents</h2>
+  <ol id="tocList">
+    <li><a href="#m51"><span class="n">5.1</span>Fiscal + monetary, short run<span class="ck">✓</span></a></li>
+    <li><a href="#m52"><span class="n">5.2</span>The Phillips curve<span class="ck">✓</span></a></li>
+    <li><a href="#m53"><span class="n">5.3</span>Money growth and inflation<span class="ck">✓</span></a></li>
+    <li><a href="#m54"><span class="n">5.4</span>Deficits and the debt<span class="ck">✓</span></a></li>
+    <li><a href="#m55"><span class="n">5.5</span>Crowding out<span class="ck">✓</span></a></li>
+    <li><a href="#m56"><span class="n">5.6</span>Economic growth<span class="ck">✓</span></a></li>
+    <li><a href="#m57"><span class="n">5.7</span>Policy and growth<span class="ck">✓</span></a></li>
+    <li><a href="#review"><span class="n">★</span>Cheat sheet<span class="ck"></span></a></li>
+    <li><a href="#quiz"><span class="n">?</span>Practice test<span class="ck"></span></a></li>
+    <li><a href="#glossary"><span class="n">A–Z</span>Glossary<span class="ck"></span></a></li>
+  </ol>
+  <div class="progress"><span id="progTxt">0 of 7 modules studied</span><div class="bar"><span id="progBar"></span></div></div>
+</nav>
+<main>
+<header class="hero">
+  <p class="unit">AP Macroeconomics, Unit 5</p>
+  <h1>Long-run consequences of stabilization policies</h1>
+  <p class="lede">Units 3 and 4 showed how fiscal and monetary policy move the economy in the short run. Unit 5 asks what happens after that: what the trade-off between inflation and unemployment really is, why printing money only raises prices in the long run, what deficits and debt cost, and what actually makes a country richer over decades.</p>
+  <div class="hero-graph" id="heroGraph" aria-label="Phillips curve: downward-sloping short-run Phillips curve crossing a vertical long-run Phillips curve at the natural rate of unemployment"></div>
+  <ul class="roadmap">
+    <li><b>Policy mix (5.1)</b>Using fiscal and monetary policy together to close a gap.</li>
+    <li><b>Phillips curve (5.2)</b>The short-run trade-off between inflation and unemployment, and why it disappears in the long run.</li>
+    <li><b>Money and debt (5.3–5.5)</b>The quantity theory, deficits, the debt, and crowding out.</li>
+    <li><b>Growth (5.6–5.7)</b>What raises productivity and how government policy can help.</li>
+  </ul>
+  <button type="button" class="kidinline" data-kid aria-pressed="false">🧸 Turn on “explain it simply” mode</button>
+  <div class="callout tip"><b class="k">How to use this guide</b><p>Purple “From your textbook” boxes collect the examples, numbers, and AP® Econ Tips from your Krugman reading (pages 266–322). Read each module top to bottom, try the interactive tools, open the “check yourself” questions, and press “Mark as studied” when you finish. Your progress is saved in this browser.</p></div>
+  <div class="callout trap"><b class="k">The one idea to keep straight all unit</b><p>Short run vs. long run. In the <b>short run</b>, policy can change real GDP and unemployment. In the <b>long run</b>, the economy returns to potential output and the natural rate of unemployment, so demand-side policy only changes the <b>price level</b> or <b>inflation</b>. The only way to raise output in the long run is to grow <b>potential output</b> itself (LRAS shifts right). Almost every Unit 5 question is testing which of these two worlds you’re in.</p></div>
+</header>
+
+<!-- ================= 5.1 ================= -->
+<section class="mod" id="m51" data-mod="m51">
+<header><p class="modnum">Module 5.1</p><h2>Fiscal and monetary policy actions in the short run</h2></header>
+<p class="big">Fiscal policy (government spending and taxes) and monetary policy (the central bank’s interest-rate tools) both shift aggregate demand. They can be used separately, or together, to close a recessionary or inflationary gap. When they’re combined, you have to think about what each one does to AD and to the interest rate.</p>
+<div class="eli5"><p class="kh">🧸 Explained simply</p><p>The economy has two steering wheels. One belongs to the <b>government</b> (spend more or less, tax more or less). The other belongs to the <b>central bank</b> (make borrowing cheaper or more expensive). Both can speed the economy up or slow it down.</p>
+<p>If both wheels turn the same way, you know for sure where the car goes. If they turn opposite ways, you can only be sure about some things.</p>
+<h4>Words, made simple</h4><dl>
+<dt>Recessionary gap</dt><dd>The economy is making less than it could. Too many people without jobs.</dd>
+<dt>Inflationary gap</dt><dd>The economy is running too hot. Prices are climbing fast.</dd>
+<dt>Expansionary policy</dt><dd>Hitting the gas: spend more, tax less, or make borrowing cheaper.</dd>
+<dt>Contractionary policy</dt><dd>Hitting the brakes: spend less, tax more, or make borrowing more expensive.</dd>
+<dt>Dual mandate</dt><dd>The Fed’s two jobs from Congress: lots of jobs and steady prices.</dd>
+</dl></div>
+
+<h3>Who runs which policy</h3>
+<div class="tablewrap"><table>
+<thead><tr><th></th><th>Fiscal policy</th><th>Monetary policy</th></tr></thead>
+<tbody>
+<tr><td><b>Who decides</b></td><td>The government (in the U.S., Congress and the president) when it sets the budget</td><td>The central bank (in the U.S., the Fed’s FOMC)</td></tr>
+<tr><td><b>Tools</b></td><td>Government purchases (G), taxes (T), transfers (TR)</td><td>Open market operations, IORB, discount rate, reserve requirement</td></tr>
+<tr><td><b>Expansionary</b></td><td>G ↑, T ↓, or TR ↑</td><td>Buy bonds / lower the policy rate → i ↓</td></tr>
+<tr><td><b>Contractionary</b></td><td>G ↓, T ↑, or TR ↓</td><td>Sell bonds / raise the policy rate → i ↑</td></tr>
+<tr><td><b>Effect on interest rates</b></td><td>Expansionary fiscal raises the real interest rate (more government borrowing)</td><td>Expansionary monetary lowers the nominal interest rate</td></tr>
+</tbody></table></div>
+
+<h3>The independence of fiscal and monetary policy</h3>
+<p>Central banks usually play no role in fiscal policy, and in many countries governments play no role in monetary policy. Congress gave the Federal Reserve a <b>dual mandate</b>: pursue <b>maximum employment</b> and <b>price stability</b>. Beyond those broad goals, Congress decided that monetary policy should be free from political influence, so the Fed is an <b>independent agency</b>.</p>
+
+<h3>Closing gaps with each tool</h3>
+<figure><div class="graphs"><div class="gwrap" id="figRecGap"></div><div class="gwrap" id="figInfGap"></div></div>
+<figcaption>Left: in a recessionary gap (Y₁ below Yp), expansionary fiscal or monetary policy shifts AD right until the economy reaches potential output. Right: in an inflationary gap, contractionary policy shifts AD left back to potential, lowering the price level.</figcaption></figure>
+<div class="chain"><span>Expansionary fiscal: G ↑ or T ↓</span><i>→</i><span>AD ↑</span><i>→</i><span>real GDP ↑, PL ↑, unemployment ↓</span></div>
+<div class="chain"><span>Expansionary monetary: buy bonds</span><i>→</i><span>MS ↑</span><i>→</i><span>i ↓</span><i>→</i><span>I and C ↑</span><i>→</i><span>AD ↑</span></div>
+
+<h3>Combining the two: what is certain and what isn’t</h3>
+<p>When both policies push AD the same way, the effect on AD is certain, but their effects on the interest rate fight each other. When they push AD in opposite directions, the effect on AD is uncertain, but their effects on the interest rate line up.</p>
+<div class="tablewrap"><table>
+<thead><tr><th>Combination</th><th>Effect on AD (real GDP, PL)</th><th>Effect on interest rate</th></tr></thead>
+<tbody>
+<tr><td>Expansionary fiscal + expansionary monetary</td><td class="up">Increases for sure</td><td>Uncertain (fiscal pushes r up, monetary pushes i down)</td></tr>
+<tr><td>Contractionary fiscal + contractionary monetary</td><td class="down">Decreases for sure</td><td>Uncertain</td></tr>
+<tr><td>Expansionary fiscal + contractionary monetary</td><td>Uncertain</td><td class="up">Increases for sure</td></tr>
+<tr><td>Contractionary fiscal + expansionary monetary</td><td>Uncertain</td><td class="down">Decreases for sure</td></tr>
+</tbody></table></div>
+<div class="callout tip"><b class="k">Why mix them?</b><p>A government that runs a big deficit in a recession pushes interest rates up and risks crowding out private investment (Module 5.5). If the central bank also expands the money supply at the same time, it can hold interest rates down so that the fiscal stimulus has its full effect on AD.</p></div>
+
+<div class="book"><p class="bh">From your textbook: Krugman’s Macroeconomics for the AP® Course</p>
+<h4>Two kinds of policy, two decision-makers</h4>
+<p>Monetary policy is the action of central banks to achieve goals such as price stability, full employment, and economic growth. Fiscal policy is the tax and spending policy of the government, set when it determines its budget. Central banks generally don’t play any role in fiscal policy.</p>
+<h4>The Fed’s dual mandate</h4>
+<p>Congress gave the Fed the mandate to pursue maximum employment and price stability, and decided monetary policy should be free from political influence. As a result, the Federal Reserve is an independent agency.</p>
+</div>
+
+<h4>Check yourself</h4>
+<details class="check"><summary>The economy is in a recession. Name one fiscal and one monetary policy that would close the gap.</summary><div class="ans">Fiscal: increase government purchases, cut taxes, or raise transfers. Monetary: buy government bonds (or lower the IORB) to reduce interest rates. Both shift AD right.</div></details>
+<details class="check"><summary>The government increases spending while the Fed sells bonds. What happens to the interest rate and to real GDP?</summary><div class="ans">The interest rate rises for sure (both push it up). The effect on real GDP is uncertain: fiscal policy shifts AD right, monetary policy shifts it left, and we don’t know which is bigger.</div></details>
+<details class="check"><summary>Why did Congress make the Fed independent?</summary><div class="ans">So that monetary policy decisions, like raising interest rates to fight inflation, aren’t blocked by short-term political pressure.</div></details>
+<div class="studied"><button type="button" data-done="m51" aria-pressed="false">Mark as studied</button></div>
+</section>
+
+<!-- ================= 5.2 ================= -->
+<section class="mod" id="m52" data-mod="m52">
+<header><p class="modnum">Module 5.2</p><h2>The Phillips curve</h2></header>
+<p class="big">In the short run, lower unemployment comes with higher inflation, and higher unemployment comes with lower inflation. That trade-off is the short-run Phillips curve. In the long run there is no trade-off: the long-run Phillips curve is vertical at the natural rate of unemployment.</p>
+<div class="eli5"><p class="kh">🧸 Explained simply</p><p>When the economy is busy, almost everyone has a job, stores are packed, and prices go up fast. When the economy is slow, lots of people lose jobs and prices barely rise. So in the short run, <b>fewer jobless people = faster-rising prices</b>. That’s a seesaw, and the short-run Phillips curve draws it.</p>
+<p>But if the government keeps pushing for super-low unemployment, people start <b>expecting</b> prices to rise, and they ask for bigger raises. Then prices rise even faster, and the seesaw itself slides up. In the long run, unemployment goes back to its normal level no matter what, and the only thing you changed is how fast prices are rising.</p>
+<h4>Words, made simple</h4><dl>
+<dt>Output gap</dt><dd>How far the economy is from what it could normally make. Negative = slow. Positive = too hot.</dd>
+<dt>Short-run Phillips curve (SRPC)</dt><dd>A downhill line: low unemployment goes with high inflation, and the other way around.</dd>
+<dt>Long-run Phillips curve (LRPC)</dt><dd>A straight-up line at the normal unemployment rate. In the long run, you always end up there.</dd>
+<dt>Expected inflation</dt><dd>How fast people think prices will rise. If they expect more, they ask for bigger raises, which pushes prices up.</dd>
+<dt>Natural rate of unemployment</dt><dd>The normal amount of unemployment when the economy is healthy.</dd>
+<dt>Stagflation</dt><dd>The worst combo: high unemployment and high inflation at the same time.</dd>
+</dl></div>
+
+<h3>The output gap and unemployment</h3>
+<dl class="terms">
+  <dt>Output gap</dt>
+  <dd>The percentage difference between actual real GDP and potential output.
+    <span class="eg">Negative output gap (recession): the economy isn’t fully using its resources, including labor, so unemployment is <b>above</b> the natural rate. Positive output gap (inflationary): resources are used at higher-than-normal rates, so unemployment is <b>below</b> the natural rate.</span></dd>
+</dl>
+<div class="formula"><div class="eq"><span class="hlx">Output gap = (actual real GDP − potential output) ÷ potential output × 100</span></div><p class="why">Unemployment moves opposite to the output gap: when the gap is negative, unemployment is above the natural rate.</p></div>
+
+<h3>The short-run Phillips curve</h3>
+<dl class="terms">
+  <dt>Short-run Phillips curve (SRPC)</dt>
+  <dd>The negative short-run relationship between the unemployment rate and the inflation rate. Named for A. W. H. Phillips, who found the pattern in British data.</dd>
+</dl>
+<figure><div class="graphs"><div class="gwrap" id="figSRPC"></div><div class="gwrap" id="figADmove"></div></div>
+<figcaption>Left: the SRPC slopes down. Right: when AD increases, the economy moves <b>along</b> the SRPC up and to the left (A → B): lower unemployment, higher inflation. When AD decreases, it moves down and to the right.</figcaption></figure>
+
+<h3>The AD–AS model and the Phillips curve are the same story</h3>
+<p>Every point on the Phillips curve matches a point in the AD–AS model. Use this translation table on FRQs:</p>
+<div class="tablewrap"><table>
+<thead><tr><th>In AD–AS</th><th>On the Phillips curve</th></tr></thead>
+<tbody>
+<tr><td>AD shifts right (real GDP ↑, PL ↑)</td><td>Move <b>along</b> the SRPC up and to the left (u ↓, π ↑)</td></tr>
+<tr><td>AD shifts left (real GDP ↓, PL ↓)</td><td>Move <b>along</b> the SRPC down and to the right (u ↑, π ↓)</td></tr>
+<tr><td>SRAS shifts left (negative supply shock)</td><td><b>SRPC shifts right/up</b> (u ↑ and π ↑: stagflation)</td></tr>
+<tr><td>SRAS shifts right (positive supply shock)</td><td><b>SRPC shifts left/down</b> (u ↓ and π ↓)</td></tr>
+<tr><td>Long-run equilibrium at potential output</td><td>On the LRPC at the natural rate of unemployment</td></tr>
+<tr><td>LRAS shifts (potential output changes)</td><td>LRPC shifts only if the <b>natural rate</b> of unemployment changes</td></tr>
+</tbody></table></div>
+<div class="callout trap"><b class="k">Opposite directions</b><p>SRAS and SRPC move in opposite directions. SRAS <b>left</b> → SRPC <b>right</b>. SRAS <b>right</b> → SRPC <b>left</b>. Think of it this way: a bad supply shock makes both unemployment and inflation worse, so the whole curve moves up and out.</p></div>
+<figure><div class="graphs"><div class="gwrap" id="figSupShock"></div><div class="gwrap" id="figSRPCshift"></div></div>
+<figcaption>A negative supply shock (like an oil price spike) shifts SRAS left. Real GDP falls and the price level rises, so unemployment and inflation both rise. On the Phillips curve, that’s a rightward (upward) shift of the SRPC.</figcaption></figure>
+
+<h3>Inflation expectations shift the SRPC</h3>
+<p>Workers and firms build expected inflation into wage contracts and prices. If people expect 2% inflation, nominal wages rise about 2% just to keep up, which pushes prices up 2% even with unemployment at the natural rate.</p>
+<ul>
+<li><b>Expected inflation ↑</b> → SRAS shifts left and SRPC shifts up (right).</li>
+<li><b>Expected inflation ↓</b> → SRAS shifts right and SRPC shifts down (left).</li>
+</ul>
+<p>People mostly base their expectations on experience. If inflation has hovered around 0% in recent years, they expect about 0%. If it has averaged 5%, they expect about 5%.</p>
+
+<h3>The long-run Phillips curve</h3>
+<dl class="terms">
+  <dt>Long-run Phillips curve (LRPC)</dt>
+  <dd>Shows the relationship between unemployment and inflation after expectations have fully adjusted. It is <b>vertical at the natural rate of unemployment</b>.</dd>
+  <dt>Nonaccelerating inflation rate of unemployment (NAIRU)</dt>
+  <dd>The unemployment rate at which inflation doesn’t change over time. It equals the natural rate of unemployment.</dd>
+</dl>
+<p>Why vertical? Say the government holds unemployment below the natural rate. Inflation rises above what people expected. Next year they expect that higher inflation, so the SRPC shifts up, and holding unemployment that low now takes even more inflation. Keep going and you get <b>ever-accelerating inflation</b>. That can’t be sustained, so <b>there is no long-run trade-off</b> between unemployment and inflation.</p>
+<figure><div class="graphs"><div class="gwrap" id="figLRPC"></div><div class="gwrap" id="figLRadj"></div></div>
+<figcaption>Left: each SRPC crosses the vertical LRPC at the inflation rate people expect. Right: the economy is at point B with unemployment below the natural rate. Inflation expectations adjust upward, the SRPC shifts up to SRPC₂, and the economy returns to the LRPC at E<sub>B</sub> with higher inflation.</figcaption></figure>
+
+<h3>Shifts of the LRPC</h3>
+<p>The LRPC is vertical at the natural rate, so <b>only things that change the natural rate of unemployment</b> shift it: changes in labor force characteristics, labor market institutions (like unions or job-matching websites), and government policies (like unemployment benefits or minimum wage).</p>
+<ul><li>Natural rate ↓ → LRPC shifts <b>left</b>.</li><li>Natural rate ↑ → LRPC shifts <b>right</b>.</li></ul>
+
+<h3>Disinflation and deflation</h3>
+<dl class="terms">
+  <dt>Disinflation</dt><dd>Bringing the inflation rate down. Because expectations are built into wages, it usually requires a period of higher unemployment (moving down the SRPC) until expectations fall and the SRPC shifts down.</dd>
+  <dt>Deflation</dt><dd>A falling aggregate price level (negative inflation). It raises the real burden of debt and can make people delay spending.</dd>
+</dl>
+
+<div class="widget">
+  <h4>Try it: the Phillips curve lab</h4>
+  <p class="sub">Press an event and watch the economy move along the SRPC or shift a curve. Then press “Let expectations adjust” to see where the long run takes it.</p>
+  <div id="pcGraph"></div>
+  <div class="btns" id="pcBtns"></div>
+  <div class="status" id="pcS"></div>
+</div>
+
+<div class="book"><p class="bh">From your textbook: Krugman’s Macroeconomics for the AP® Course</p>
+<h4>U.S. data, 1955–1968 (Figure 5.2-1)</h4>
+<p>Each dot shows a year’s unemployment rate and the next year’s CPI inflation. Years with low unemployment (like 1966–1968, around 3.5–4%) had higher inflation; years with high unemployment (like 1958 and 1961, around 7%) had low inflation. Data like this were behind the original idea of the Phillips curve.</p>
+<h4>A recessionary AD shift (Figure 5.2-4)</h4>
+<p>The economy starts at E₁ at potential output with 2% inflation (the target rate) and unemployment at the natural rate. AD shifts left to AD₂: a negative output gap forms, unemployment rises to <b>7%</b>, and inflation falls to <b>0%</b>. The same AD shift shows up as a movement down the SRPC.</p>
+<h4>Expectations shift the curve (Figure 5.2-6)</h4>
+<p>With 0% expected inflation, SRPC₀ says inflation will be 0% at 6% unemployment and 2% at 4% unemployment. If expected inflation rises to 2%, the curve shifts up by 2 points at every unemployment rate: SRPC₂ gives 2% inflation at 6% unemployment and 4% at 4% unemployment. At E₀, E₂, and E₄, unemployment is 6% (the natural rate) and actual inflation equals expected inflation.</p>
+<div class="aptip"><b class="k">AP® Econ Tip</b><p>Changes in inflationary expectations shift the SRAS curve and the SRPC as a result of their effect on wages. An increase in expected inflation shifts the SRAS curve to the left and the SRPC to the right. A decrease in expected inflation shifts the SRAS curve to the right and the SRPC to the left.</p></div>
+<h4>Back to long-run equilibrium (Figure 5.2-9)</h4>
+<p>If there’s a positive or negative output gap, inflation expectations eventually adjust to the new level of inflation and shift the SRPC so the economy returns to the long-run equilibrium. The lower inflation at point A shifts the SRPC down to SRPC₁ (new equilibrium E<sub>A</sub>); the higher inflation at point B shifts it up to SRPC₂ (E<sub>B</sub>). In the long run, the economy returns to the natural rate of unemployment, with inflation set by expectations.</p>
+</div>
+
+<h4>Check yourself</h4>
+<details class="check"><summary>The government increases spending when the economy is at full employment. Show the short-run effect on the Phillips curve.</summary><div class="ans">AD shifts right, so the economy moves along the SRPC up and to the left: unemployment falls below the natural rate and inflation rises.</div></details>
+<details class="check"><summary>Oil prices spike. What happens to the SRPC?</summary><div class="ans">SRAS shifts left, raising both unemployment and inflation, so the SRPC shifts right (up).</div></details>
+<details class="check"><summary>Why is the LRPC vertical?</summary><div class="ans">In the long run, inflation expectations catch up to actual inflation and the economy returns to the natural rate of unemployment, whatever the inflation rate. Holding unemployment below the natural rate would require ever-accelerating inflation.</div></details>
+<details class="check"><summary>A new job-matching website lowers frictional unemployment. Which curve shifts?</summary><div class="ans">The natural rate of unemployment falls, so the LRPC shifts left (and the SRPC shifts left with it).</div></details>
+<div class="studied"><button type="button" data-done="m52" aria-pressed="false">Mark as studied</button></div>
+</section>
+
+<!-- ================= 5.3 ================= -->
+<section class="mod" id="m53" data-mod="m53">
+<header><p class="modnum">Module 5.3</p><h2>Money growth and inflation</h2></header>
+<p class="big">In the short run, more money lowers interest rates and raises real GDP. In the long run, nominal wages catch up and the only lasting effect is a higher price level. Money is <b>neutral</b> in the long run, and persistent inflation comes from persistent growth in the money supply.</p>
+<div class="eli5"><p class="kh">🧸 Explained simply</p><p>Imagine everyone in your class suddenly gets twice as many tickets for the school store. At first, the store sells more stuff. But the store doesn’t have twice as many toys, so it soon <b>doubles every price</b>. Now everyone has twice the tickets, everything costs twice as much, and nobody is actually richer.</p>
+<p>That’s money in the long run: more money just means higher prices, not more stuff.</p>
+<h4>Words, made simple</h4><dl>
+<dt>Monetary neutrality</dt><dd>In the long run, changing how much money there is changes prices, not how much stuff we make.</dd>
+<dt>Velocity of money</dt><dd>How many times a dollar gets spent in a year. You buy lunch, the café pays a worker, the worker buys a book…</dd>
+<dt>Quantity Theory of Money</dt><dd>Money × how fast it’s spent = prices × stuff made. Print more money → prices go up.</dd>
+<dt>Monetarism</dt><dd>The idea that the money supply should grow slowly and steadily, like a set rule, instead of the Fed changing course all the time.</dd>
+</dl></div>
+
+<h3>Short run vs. long run effects of a change in the money supply</h3>
+<p><b>Short run</b>: an increase in the money supply lowers the interest rate, which raises investment spending and, through the multiplier, consumer spending. AD shifts right, and both real GDP and the price level rise.</p>
+<div class="chain"><span>MS ↑</span><i>→</i><span>i ↓</span><i>→</i><span>I ↑</span><i>→</i><span>C ↑ (multiplier)</span><i>→</i><span>AD ↑</span><i>→</i><span>real GDP ↑ and PL ↑</span></div>
+<p><b>Long run</b>: real GDP is now above potential output, so unemployment is low and nominal wages rise. SRAS shifts left until the economy is back at potential output. Real GDP returns to Y₁, but the price level is even higher.</p>
+<div class="chain"><span>MS ↑</span><i>→</i><span>…</span><i>→</i><span>AD ↑</span><i>→</i><span>nominal wages ↑, SRAS ←</span><i>→</i><span>real GDP back to Yp, PL ↑↑</span></div>
+<figure><div class="gwrap" id="figMSlong"></div>
+<figcaption>Figure 5.3-1 in your book. An increase in the money supply shifts AD right (E₁ → E₂): real GDP rises above potential. Over time nominal wages rise, SRAS shifts left, and the economy ends at E₃: back at potential output, with a higher price level (PL₃).</figcaption></figure>
+<p>A <b>decrease</b> in the money supply plays out in reverse: i ↑, I ↓, C ↓, AD ↓, real GDP and PL ↓ in the short run; then nominal wages fall, SRAS shifts right, and real GDP returns to potential with a <b>lower</b> price level.</p>
+
+<h3>Monetary neutrality</h3>
+<dl class="terms">
+  <dt>Monetary neutrality</dt>
+  <dd>Changes in the money supply have no real effects on the economy in the long run. The only effect is an equal percentage change in the price level.
+    <span class="eg">If the money supply falls 25%, the price level must eventually fall 25%; if it rises 50%, the price level rises 50%. That restores the <b>real</b> quantity of money (M/P) and every other real value to where it started.</span></dd>
+</dl>
+<div class="callout tip"><b class="k">Interest rates in the long run</b><p>In the short run, more money lowers the interest rate. In the long run, the price level rises proportionally, which raises money demand by the same proportion, so the interest rate goes back to where it started. <b>In the long run, the money supply does not affect the interest rate.</b></p></div>
+
+<h3>The Quantity Theory of Money</h3>
+<dl class="terms">
+  <dt>Velocity of money (V)</dt>
+  <dd>The number of times the average dollar is spent in a year: V = nominal GDP ÷ money supply.</dd>
+  <dt>Quantity Theory of Money</dt>
+  <dd>The equation of exchange, plus the assumption that velocity is stable and real GDP is set by potential output in the long run. Then any growth in the money supply shows up as inflation.</dd>
+</dl>
+<div class="formula">
+  <div class="eq"><span class="hlx">M × V = P × Y</span></div>
+  <div class="eq">M = money supply, V = velocity, P = price level, Y = real GDP, so P × Y = nominal GDP</div>
+  <div class="eq"><span class="hlx">%ΔM + %ΔV ≈ %ΔP + %ΔY</span></div>
+  <p class="why">With V constant (%ΔV = 0) and Y at potential, inflation ≈ money growth − real GDP growth. Money growth faster than output growth causes inflation; persistent high money growth causes persistent high inflation.</p>
+</div>
+<div class="widget">
+  <h4>Try it: the quantity theory calculator</h4>
+  <p class="sub">Set the growth rates. The calculator solves %ΔM + %ΔV = %ΔP + %ΔY for the inflation rate.</p>
+  <div class="ctl"><label for="qM">Money supply growth (%ΔM)</label><input type="range" id="qM" min="-10" max="30" step="1" value="8"><output id="qMo">8%</output></div>
+  <div class="ctl"><label for="qV">Velocity growth (%ΔV)</label><input type="range" id="qV" min="-5" max="5" step="1" value="0"><output id="qVo">0%</output></div>
+  <div class="ctl"><label for="qY">Real GDP growth (%ΔY)</label><input type="range" id="qY" min="-4" max="8" step="1" value="3"><output id="qYo">3%</output></div>
+  <div class="stats"><div class="stat"><div class="l">Inflation (%ΔP)</div><div class="v" id="qP">5%</div></div><div class="stat"><div class="l">Nominal GDP growth</div><div class="v" id="qN">8%</div></div></div>
+  <div class="status" id="qS"></div>
+</div>
+<h4>Level problems</h4>
+<p>You can also plug levels into M × V = P × Y. Example: M = $2 trillion, V = 5, real GDP = $8 trillion. Then nominal GDP = 2 × 5 = $10 trillion, and P = 10 ÷ 8 = 1.25 (a price index of 125).</p>
+
+<h3>Monetarism</h3>
+<p>Milton Friedman led a movement called <b>monetarism</b>, which argued that GDP will grow steadily if the money supply grows steadily. Monetarists wanted a <b>monetary policy rule</b>: slow, steady money growth that leaves little discretion to the central bank. The idea depends on <b>velocity being stable</b>, and after 1980 it wasn’t.</p>
+
+<div class="book"><p class="bh">From your textbook: Krugman’s Macroeconomics for the AP® Course</p>
+<h4>Friedman and Schwartz</h4>
+<p>In <i>A Monetary History of the United States, 1867–1960</i> (1963), Milton Friedman and Anna Schwartz showed that business cycles had historically been associated with swings in the money supply. Their argument persuaded most economists that monetary policy should play a key role. It also suggested the burden of managing the economy could shift away from fiscal policy, which requires political choices (whose taxes to cut, what to spend on), and toward an independent central bank. Shifting from fiscal to monetary policy makes macroeconomics a more technical, less political issue.</p>
+<h4>Turkey drops six zeros (2005)</h4>
+<p>In January 2005, Turkey made 1,000,000 “old” lira equal to 1 “new” lira. Turkish real GDP didn’t change. The only thing that changed was the number of zeros on prices: something that cost 2,000,000 lira now cost 2 lira. That’s monetary neutrality.</p>
+<h4>Velocity isn’t stable (Figure 5.3-2)</h4>
+<p>The velocity of M1 (nominal GDP ÷ M1) rose along a smooth, predictable trend from 1960 to 1980, which made monetarists confident. From 1980 to 2008 it moved erratically, and since 2008 it has declined sharply. That’s why a simple money-growth rule fell out of favor.</p>
+</div>
+
+<h4>Check yourself</h4>
+<details class="check"><summary>The money supply grows 10% a year, velocity is constant, and real GDP grows 3%. What is inflation?</summary><div class="ans">%ΔP = 10 + 0 − 3 = 7%.</div></details>
+<details class="check"><summary>The Fed doubles the money supply. In the long run, what happens to real GDP, the price level, and the interest rate?</summary><div class="ans">Real GDP: unchanged (back at potential). Price level: doubles. Interest rate: back to its original level.</div></details>
+<details class="check"><summary>Why did monetarism lose support after 1980?</summary><div class="ans">Velocity stopped following a stable trend, so steady money growth no longer reliably produced steady growth in nominal GDP.</div></details>
+<div class="studied"><button type="button" data-done="m53" aria-pressed="false">Mark as studied</button></div>
+</section>
+
+<!-- ================= 5.4 ================= -->
+<section class="mod" id="m54" data-mod="m54">
+<header><p class="modnum">Module 5.4</p><h2>Government deficits and the national debt</h2></header>
+<p class="big">The budget balance is a <b>flow</b>: the gap between what the government takes in and spends in one year. The national debt is a <b>stock</b>: the total of all past deficits minus past surpluses. Running deficits in a recession can be good policy, but a debt that keeps rising faster than the economy creates real problems.</p>
+<div class="eli5"><p class="kh">🧸 Explained simply</p><p>Say you get $10 allowance a week but spend $12. You borrow $2 from your parents. That week’s shortfall is your <b>deficit</b>. Do that for 10 weeks and you owe $20. The total you owe is your <b>debt</b>.</p>
+<p>Owing a little is OK, especially if you’re growing up and will earn more later. But if you have to borrow just to pay back what you already owe, you get in deeper and deeper.</p>
+<h4>Words, made simple</h4><dl>
+<dt>Budget surplus</dt><dd>The government collects more than it spends this year.</dd>
+<dt>Budget deficit</dt><dd>The government spends more than it collects this year, so it borrows.</dd>
+<dt>National debt</dt><dd>All the money the government still owes from every year added up.</dd>
+<dt>Debt-to-GDP ratio</dt><dd>How big the debt is compared with how much the whole country makes. Like comparing what you owe to your allowance.</dd>
+<dt>Automatic stabilizers</dt><dd>Rules that kick in by themselves: in bad times taxes fall and help payments rise without anyone voting.</dd>
+<dt>Default</dt><dd>When a borrower stops paying back what it owes.</dd>
+</dl></div>
+
+<h3>The budget balance</h3>
+<div class="formula">
+  <div class="eq"><span class="hlx">Budget balance = T − G − TR</span></div>
+  <p class="why">T = tax revenue, G = government purchases of goods and services, TR = government transfers. Positive = <b>budget surplus</b> (government saving). Negative = <b>budget deficit</b>.</p>
+</div>
+<p>Other things equal, expansionary fiscal policy (G ↑, TR ↑, T ↓) reduces the budget balance, making a surplus smaller or a deficit bigger. Contractionary fiscal policy increases it.</p>
+
+<h3>The business cycle and the cyclically adjusted budget balance</h3>
+<p>The budget balance also moves on its own over the business cycle, because of <b>automatic stabilizers</b>:</p>
+<ul>
+<li>In a <b>recession</b>, incomes fall so tax revenue falls, and more people qualify for unemployment benefits and other transfers. The budget moves toward <b>deficit</b> even if no one changes policy.</li>
+<li>In an <b>expansion</b>, tax revenue rises and transfers fall, so the budget moves toward <b>surplus</b>.</li>
+</ul>
+<dl class="terms">
+  <dt>Cyclically adjusted budget balance</dt>
+  <dd>An estimate of what the budget balance would be if real GDP were exactly at potential output. It strips out the effect of the business cycle, so it shows whether the government’s <b>policy</b> is adding to deficits over the long run.</dd>
+</dl>
+<div class="callout tip"><b class="k">Should the budget be balanced every year?</b><p>Most economists say no. A balanced-budget rule would force the government to raise taxes or cut spending in a recession (when revenue falls), which is contractionary and would make the recession worse. It would undermine the automatic stabilizers. The goal is a budget that balances on average over the cycle: deficits in bad years, surpluses in good years.</p></div>
+
+<h3>Deficit vs. debt</h3>
+<div class="tablewrap"><table>
+<thead><tr><th></th><th>Budget deficit</th><th>Government (national) debt</th></tr></thead>
+<tbody>
+<tr><td>Type</td><td>Flow, over one year</td><td>Stock, at a point in time</td></tr>
+<tr><td>Measures</td><td>How much more the government spent than it collected this year</td><td>The total the government currently owes</td></tr>
+<tr><td>Relationship</td><td colspan="2">Debt = sum of all past deficits − all past surpluses. A deficit this year adds to the debt; a surplus reduces it.</td></tr>
+</tbody></table></div>
+<p>A note on the U.S. <b>fiscal year</b>: it runs from October 1 to September 30, and is named for the calendar year it ends in.</p>
+
+<h3>Problems posed by rising government debt</h3>
+<ul>
+<li><b>Crowding out</b>: government borrowing competes with private borrowing and raises the real interest rate, reducing private investment (Module 5.5).</li>
+<li><b>Opportunity cost of interest payments</b>: money spent on interest can’t be spent on goods and services, transfers, lower taxes, or paying down the debt.</li>
+<li><b>A debt spiral</b>: borrowing to pay interest on existing debt pushes the government deeper into debt.</li>
+<li><b>Default risk</b>: eventually lenders may question the government’s ability to repay and stop lending. A default is often followed by deep financial and economic turmoil.</li>
+</ul>
+
+<h3>Deficits and debt in practice</h3>
+<dl class="terms">
+  <dt>Debt-to-GDP ratio</dt>
+  <dd>Government debt as a percentage of GDP. We use it instead of the raw size of the debt because GDP measures the size of the whole economy, which is a good indicator of the taxes the government could collect.
+    <span class="eg">If debt grows more slowly than GDP, the burden of the debt is actually falling compared with potential tax revenue, even if the debt is still rising.</span></dd>
+  <dt>Implicit liabilities</dt>
+  <dd>Spending promises that aren’t counted in the official debt but are like debt: mainly <b>Social Security, Medicare, and Medicaid</b>. An aging population and rising health care costs make these much more expensive over time.</dd>
+</dl>
+<div class="widget">
+  <h4>Try it: can the debt-to-GDP ratio fall while debt rises?</h4>
+  <p class="sub">Start with debt equal to 100% of GDP. Set how fast nominal debt and nominal GDP grow each year and see the ratio after 10 years.</p>
+  <div class="ctl"><label for="dD">Debt growth per year</label><input type="range" id="dD" min="0" max="12" step="0.5" value="3"><output id="dDo">3%</output></div>
+  <div class="ctl"><label for="dG">Nominal GDP growth per year</label><input type="range" id="dG" min="0" max="12" step="0.5" value="5"><output id="dGo">5%</output></div>
+  <div class="stats"><div class="stat"><div class="l">Debt after 10 years</div><div class="v" id="dDv">134</div></div><div class="stat"><div class="l">GDP after 10 years</div><div class="v" id="dGv">163</div></div><div class="stat"><div class="l">Debt-to-GDP ratio</div><div class="v" id="dR">82%</div></div></div>
+  <div class="status" id="dS"></div>
+</div>
+
+<div class="book"><p class="bh">From your textbook: Krugman’s Macroeconomics for the AP® Course</p>
+<h4>The National Debt Clock</h4>
+<p>A digital clock in midtown Manhattan displays the current gross national debt of the United States. On April 29, 2020, it passed <b>$22 trillion</b>.</p>
+<h4>Japan in the 1990s</h4>
+<p>Japan used large budget deficits to fight a sluggish economy in the 1990s. It was partly successful: Japan avoided a slump like the 1930s. But running large deficits year after year pushed its government debt to levels that made many observers uneasy.</p>
+<div class="aptip"><b class="k">AP® Econ Tip</b><p>Government debt, sometimes called the national debt, is equal to the sum of all of the government’s past annual deficits and surpluses. A budget deficit or surplus is for a single budget year. The national debt is the accumulated total amount the government currently owes.</p></div>
+<h4>The debt-to-GDP ratio after World War II (Figure 5.4-3)</h4>
+<p>Federal debt grew in almost every year, yet the debt-to-GDP ratio <b>fell for 30 years</b> after World War II, because GDP grew faster than debt. Growth and inflation can let a government running persistent deficits still have a declining debt-to-GDP ratio.</p>
+<h4>2008 and 2020</h4>
+<p>When large deficits aren’t offset by growth, the ratio rises. During 2008–2010, bank bailouts and expansionary spending and tax policies during slow growth pushed the ratio up. In 2020, several coronavirus relief bills produced a federal deficit of <b>$3.1 trillion</b>, more than triple the 2019 deficit.</p>
+<h4>Future demands on the budget (Figure 5.4-4)</h4>
+<p>Spending on social insurance programs is projected to rise sharply as a share of GDP, partly from an aging population but mainly because of rising health care costs.</p>
+</div>
+
+<h4>Check yourself</h4>
+<details class="check"><summary>T = $3.0 trillion, G = $2.4 trillion, TR = $1.1 trillion. What is the budget balance?</summary><div class="ans">3.0 − 2.4 − 1.1 = −$0.5 trillion: a $500 billion deficit.</div></details>
+<details class="check"><summary>A recession begins and no one changes policy. What happens to the budget balance, and why?</summary><div class="ans">It moves toward deficit. Tax revenue falls as incomes fall, and transfers like unemployment benefits rise automatically.</div></details>
+<details class="check"><summary>The debt was $20 trillion. This year the government runs a $1 trillion deficit. What is the debt now?</summary><div class="ans">$21 trillion. The deficit adds to the debt.</div></details>
+<details class="check"><summary>Why might a balanced-budget amendment make recessions worse?</summary><div class="ans">In a recession tax revenue falls, so a balanced budget would require tax increases or spending cuts: contractionary policy at exactly the wrong time.</div></details>
+<div class="studied"><button type="button" data-done="m54" aria-pressed="false">Mark as studied</button></div>
+</section>
+
+<!-- ================= 5.5 ================= -->
+<section class="mod" id="m55" data-mod="m55">
+<header><p class="modnum">Module 5.5</p><h2>Crowding out</h2></header>
+<p class="big">To finance a deficit, the government borrows by selling bonds. That raises the demand for loanable funds and the real interest rate, which reduces private investment. Less investment today means less physical capital tomorrow, and slower long-run growth.</p>
+<div class="eli5"><p class="kh">🧸 Explained simply</p><p>There’s only so much money people are willing to lend. If the government shows up and borrows a big chunk, lenders can charge more (higher interest), and some businesses decide it’s too expensive to borrow for new machines. The government <b>crowded out</b> the businesses, like a big kid taking up most of the slide.</p>
+<p>Fewer new machines today means the country grows a bit slower later.</p>
+<h4>Words, made simple</h4><dl>
+<dt>Loanable funds market</dt><dd>The pretend marketplace where savers lend and borrowers borrow. The price is the real interest rate.</dd>
+<dt>Crowding out</dt><dd>Government borrowing pushes interest rates up, so businesses borrow and build less.</dd>
+<dt>Physical capital</dt><dd>Machines, tools, and buildings used to make things.</dd>
+<dt>Treasury bonds</dt><dd>IOUs the government sells to borrow money.</dd>
+</dl></div>
+
+<h3>How the government finances its debt</h3>
+<p>When a government spends more than it collects, it borrows, usually by <b>selling bonds</b>. In the U.S., the Treasury Department issues Treasury bills, notes, and bonds. In the United Kingdom, the Debt Management Office (sponsored by HM Treasury) sells government bonds, bills, and <b>gilts</b> (a type of bond). Every bond means future interest payments.</p>
+
+<h3>Crowding out in the loanable funds market</h3>
+<figure><div class="graphs"><div class="gwrap" id="figCrowd"></div><div class="gwrap" id="figCrowdPPC"></div></div>
+<figcaption>Left: a bigger deficit increases the demand for loanable funds (D<sub>LF</sub> shifts right), raising the real interest rate from r₁ to r₂. At the higher rate, private investment falls. Right: the long-run cost. With less capital accumulation, the PPC (and LRAS) shifts out by less than it would have.</figcaption></figure>
+<div class="chain"><span>Deficit ↑</span><i>→</i><span>government borrowing ↑</span><i>→</i><span>D<sub>LF</sub> →</span><i>→</i><span>real r ↑</span><i>→</i><span>private I ↓</span><i>→</i><span>less physical capital</span><i>→</i><span>slower long-run growth</span></div>
+<div class="callout trap"><b class="k">Graph check</b><p>Crowding out is shown on the <b>loanable funds</b> graph with the <b>real</b> interest rate on the vertical axis, not on the money market graph. Some teachers instead show a deficit as a <b>leftward shift of supply</b> (less public saving). Either way, the real interest rate rises and private investment falls. Use whichever version your teacher uses.</p></div>
+<div class="callout tip"><b class="k">The flip side</b><p>A budget <b>surplus</b> does the reverse: less government borrowing (or the government supplying funds by paying down debt) lowers the real interest rate and encourages private investment, adding to long-run growth.</p></div>
+<div class="callout tip"><b class="k">When crowding out is small</b><p>In a deep recession with lots of idle savings and low interest rates, extra government borrowing raises interest rates very little, so crowding out is small. It matters most when the economy is near full employment.</p></div>
+
+<div class="book"><p class="bh">From your textbook: Krugman’s Macroeconomics for the AP® Course</p>
+<h4>Financing the debt</h4>
+<p>In the United Kingdom, government debt is financed through the Debt Management Office, an agency sponsored by HM Treasury, which sells government bonds, bills, and gilts. In the United States, the Treasury Department plays that role.</p>
+<h4>Why a higher real interest rate matters</h4>
+<p>Beyond the opportunity cost of interest payments, persistent deficits and rising debt can raise real interest rates in the loanable funds market by increasing the demand for loanable funds. The real interest rate is a key determinant of investment: a higher rate makes borrowing more expensive and reduces business investment, while a lower rate makes borrowing cheaper and encourages it.</p>
+</div>
+
+<h4>Check yourself</h4>
+<details class="check"><summary>The government increases its deficit. Show and explain crowding out.</summary><div class="ans">Demand for loanable funds shifts right as the government borrows more. The real interest rate rises, and private investment spending falls.</div></details>
+<details class="check"><summary>How can crowding out hurt long-run growth?</summary><div class="ans">Less private investment means a smaller stock of physical capital, so productivity and potential output grow more slowly. LRAS (and the PPC) shift out less.</div></details>
+<details class="check"><summary>Which interest rate rises in crowding out, real or nominal, and on which graph?</summary><div class="ans">The real interest rate, on the loanable funds graph.</div></details>
+<div class="studied"><button type="button" data-done="m55" aria-pressed="false">Mark as studied</button></div>
+</section>
+
+<!-- ================= 5.6 ================= -->
+<section class="mod" id="m56" data-mod="m56">
+<header><p class="modnum">Module 5.6</p><h2>Economic growth</h2></header>
+<p class="big">Long-run economic growth is a sustained rise in real GDP per capita. It comes from rising <b>productivity</b>: more output per worker, driven by physical capital, human capital, and technology. Growth shows up as an outward shift of the PPC and a rightward shift of LRAS.</p>
+<div class="eli5"><p class="kh">🧸 Explained simply</p><p>A country gets richer when each person can make more stuff. Three things help: <b>better tools</b> (physical capital), <b>more skills</b> (human capital), and <b>smarter ways of doing things</b> (technology).</p>
+<p>A worker with a shovel digs a little. A worker with a backhoe digs a lot. Teach her to drive it well and use a better plan, and she digs even more.</p>
+<h4>Words, made simple</h4><dl>
+<dt>Real GDP per capita</dt><dd>All the stuff a country makes, divided by the number of people. The best simple measure of how well people live.</dd>
+<dt>Productivity</dt><dd>How much one worker makes in an hour or a year.</dd>
+<dt>Physical capital</dt><dd>Tools, machines, buildings.</dd>
+<dt>Human capital</dt><dd>Skills and knowledge people have from school and practice.</dd>
+<dt>Technology</dt><dd>Better ways of making things, from computer chips to Post-it notes.</dd>
+<dt>Rule of 70</dt><dd>A shortcut: 70 ÷ growth rate = how many years until something doubles.</dd>
+</dl></div>
+
+<h3>Measuring growth</h3>
+<div class="formula">
+  <div class="eq"><span class="hlx">Real GDP per capita = real GDP ÷ population</span></div>
+  <div class="eq"><span class="hlx">Growth rate = (this year − last year) ÷ last year × 100</span></div>
+  <div class="eq"><span class="hlx">Years to double ≈ 70 ÷ annual growth rate</span></div>
+  <p class="why">We use <b>real</b> GDP to remove the effect of rising prices and <b>per capita</b> to remove the effect of population growth. If real GDP grows only as fast as population, real GDP per capita doesn’t change and the standard of living doesn’t rise.</p>
+</div>
+<div class="widget">
+  <h4>Try it: the power of growth</h4>
+  <p class="sub">Small differences in growth rates add up to huge differences over time.</p>
+  <div class="ctl"><label for="gR">Growth in real GDP per capita</label><input type="range" id="gR" min="0.5" max="10" step="0.5" value="2"><output id="gRo">2%</output></div>
+  <div class="ctl"><label for="gS">Starting real GDP per capita</label><input type="range" id="gS" min="1000" max="60000" step="1000" value="20000"><output id="gSo">$20,000</output></div>
+  <div class="stats"><div class="stat"><div class="l">Years to double (rule of 70)</div><div class="v" id="gD">35</div></div><div class="stat"><div class="l">After 35 years</div><div class="v" id="g35">$39,980</div></div><div class="stat"><div class="l">After 70 years</div><div class="v" id="g70">$79,920</div></div></div>
+</div>
+
+<h3>The sources of long-run growth: productivity</h3>
+<dl class="terms">
+  <dt>Labor productivity</dt>
+  <dd>Output per worker (or per hour worked) = real GDP ÷ number of workers. Sustained growth in real GDP per capita happens only when productivity rises.</dd>
+  <dt>Physical capital</dt>
+  <dd>Human-made resources such as buildings and machinery that make workers more productive.</dd>
+  <dt>Human capital</dt>
+  <dd>The improvement in labor created by the education and knowledge embodied in the workforce.</dd>
+  <dt>Technology</dt>
+  <dd>The technical means for producing goods and services. Technological progress lets workers produce more with the same physical and human capital.</dd>
+</dl>
+
+<h3>The aggregate production function</h3>
+<div class="formula">
+  <div class="eq"><span class="hlx">Real GDP = f(K, L)</span></div>
+  <p class="why">K = the stock of physical capital; L = the quantity and quality (human capital) of labor. “f” means “is a function of,” or “depends on.” Technology determines the shape of f.</p>
+</div>
+<dl class="terms">
+  <dt>Diminishing returns to physical capital</dt>
+  <dd>Holding human capital and technology fixed, each additional unit of physical capital per worker raises productivity by less than the one before. The first backhoe makes a huge difference; the fifth backhoe for the same worker adds almost nothing.
+    <span class="eg">That’s why the production function is drawn bowed downward (concave). Technological progress shifts the whole curve up.</span></dd>
+</dl>
+<figure><div class="graphs"><div class="gwrap" id="figProdFn"></div><div class="gwrap" id="figGrowthPPC"></div></div>
+<figcaption>Left: the aggregate production function shows diminishing returns to physical capital per worker; better technology shifts it up. Right: economic growth shifts the PPC outward.</figcaption></figure>
+
+<h3>Growth in the models</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Model</th><th>How long-run growth is shown</th></tr></thead>
+<tbody>
+<tr><td>PPC</td><td>Outward shift of the whole curve. A country that produces more <b>investment (capital) goods</b> today shifts its PPC out further tomorrow.</td></tr>
+<tr><td>AD–AS</td><td>Rightward shift of <b>LRAS</b> (potential output increases)</td></tr>
+<tr><td>Phillips curve</td><td>No direct effect, unless the natural rate of unemployment changes</td></tr>
+</tbody></table></div>
+<figure><div class="gwrap" id="figLRAS"></div>
+<figcaption>Figure 5.6-8 in your book. LRAS is vertical at potential output. Growth in potential output over time (Y<sub>P</sub>¹ → Y<sub>P</sub>² → Y<sub>P</sub>³) shows up as LRAS shifting right.</figcaption></figure>
+<div class="callout trap"><b class="k">Long-run growth vs. short-run fluctuations</b><p>Short-run changes in real GDP come from <b>AD or SRAS shifts</b> (the business cycle). Long-run growth is an increase in <b>potential output</b>: LRAS shifts right. An increase in AD alone can’t create long-run growth.</p></div>
+
+<div class="book"><p class="bh">From your textbook: Krugman’s Macroeconomics for the AP® Course</p>
+<h4>Why per capita</h4>
+<p>Other things equal, an increase in population lowers the standard of living for the average person, since more people share a given amount of real GDP. Figure 5.6-1 compares real GDP per capita in the United States, India, and China from 1910 to 2018, drawn so that equal percentage changes look the same size.</p>
+<h4>Shovel vs. backhoe</h4>
+<p>A worker operating a backhoe can dig a lot more feet of trench per day than one with only a shovel. That’s physical capital raising productivity.</p>
+<div class="aptip"><b class="k">AP® Econ Tip</b><p>Be careful when describing what leads to long-run growth. “Increased investment in physical capital” leads to long-run economic growth because capital accumulation raises productivity. “Increased investment” alone describes a short-run change in aggregate demand, because investment is a component of AD.</p></div>
+<h4>Modest inventions matter</h4>
+<p>Economically important technology doesn’t have to be flashy. Growth has been driven by big inventions like the railroad and the semiconductor chip, but also by thousands of modest ones. The flat-bottomed paper bag (patented 1870) made packing groceries much easier, and the Post-it note (1981) had surprisingly large benefits for office productivity.</p>
+<h4>Land in the production function</h4>
+<p>In theory, land affects output too, but in modern economies it matters far less than physical capital and labor, which is why the production function is written as f(K, L). In some less developed economies, land and livestock are still important inputs.</p>
+<h4>Kyland’s PPC</h4>
+<p>Your book’s example country, Kyland, chooses between consumer goods (food, clothing, sporting goods) and investment goods (physical capital used to produce other goods). The PPC is bowed out because of increasing opportunity cost. Choosing more investment goods today (point A or B instead of C) means faster growth in the future.</p>
+<div class="aptip"><b class="k">AP® Econ Tip</b><p>The LRAS curve is vertical at the economy’s potential output (full employment output), which corresponds to the natural rate of unemployment. Economic growth is shown in the AD–AS model by a rightward shift of LRAS. Long-run growth is distinct from short-run fluctuations, which are shown by changes in short-run equilibrium due to shifts in SRAS or AD.</p></div>
+</div>
+
+<h4>Check yourself</h4>
+<details class="check"><summary>Real GDP is $12 trillion and population is 300 million. What is real GDP per capita?</summary><div class="ans">$12,000,000,000,000 ÷ 300,000,000 = $40,000.</div></details>
+<details class="check"><summary>Real GDP per capita grows 3.5% a year. About how long until it doubles?</summary><div class="ans">70 ÷ 3.5 = 20 years.</div></details>
+<details class="check"><summary>Real GDP per capita rose from $50,000 to $51,500. What was the growth rate?</summary><div class="ans">(51,500 − 50,000) ÷ 50,000 × 100 = 3%.</div></details>
+<details class="check"><summary>Why does the aggregate production function get flatter as capital per worker rises?</summary><div class="ans">Diminishing returns to physical capital: with human capital and technology fixed, each additional unit of capital per worker adds less output than the previous one.</div></details>
+<div class="studied"><button type="button" data-done="m56" aria-pressed="false">Mark as studied</button></div>
+</section>
+
+<!-- ================= 5.7 ================= -->
+<section class="mod" id="m57" data-mod="m57">
+<header><p class="modnum">Module 5.7</p><h2>Public policy and economic growth</h2></header>
+<p class="big">Countries grow at very different rates because they differ in how much they save and invest, how fast they build human capital, and how much research and development they do. Governments can promote growth through infrastructure, education, a sound financial system, protection of property rights, R&amp;D, and supply-side policies.</p>
+<div class="eli5"><p class="kh">🧸 Explained simply</p><p>Some countries get richer faster than others. The fast ones usually <b>save and build</b> a lot, <b>send lots of kids to school</b>, and <b>invent and use new ideas</b>. The government can help by building roads and power lines, running good schools, keeping banks trustworthy, and making sure people get to keep what they build.</p>
+<h4>Words, made simple</h4><dl>
+<dt>Infrastructure</dt><dd>Stuff everyone uses: roads, power lines, internet, clean water.</dd>
+<dt>R&amp;D</dt><dd>Research and development: inventing new things and making them work in real life.</dd>
+<dt>Property rights</dt><dd>Rules that say what’s yours is yours, so people bother to build things.</dd>
+<dt>Supply-side policies</dt><dd>Government changes that make people want to work, save, and build more, like lower tax rates.</dd>
+<dt>Laffer curve</dt><dd>The idea that if taxes are super high, cutting them could even bring in more money. Economists argue about whether that’s true in real life.</dd>
+</dl></div>
+
+<h3>Why growth rates differ</h3>
+<dl class="terms">
+  <dt>Savings and investment spending</dt>
+  <dd>Countries that grow fast usually invest a large share of GDP in physical capital. Foreign funds have helped some countries (the U.S. relied heavily on them during early industrialization), but mostly, countries invest a lot because they have <b>high domestic savings</b>.</dd>
+  <dt>Human capital</dt>
+  <dd>Educational levels rose much faster in fast-growing countries.</dd>
+  <dt>Research and development (R&amp;D)</dt>
+  <dd>Spending to create new technologies and prepare them for practical use. Developing new technology is one thing; adopting it is another, and countries differ in how fast they apply new technologies.</dd>
+</dl>
+
+<h3>The role of government in promoting growth</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Policy area</th><th>How it raises growth</th><th>Which source of productivity</th></tr></thead>
+<tbody>
+<tr><td><b>Infrastructure</b> (roads, power lines, ports, telecommunications)</td><td>Makes private capital and workers more productive</td><td>Physical capital</td></tr>
+<tr><td><b>Public health</b> (clean water, disease control)</td><td>A healthy workforce can work and learn</td><td>Human capital</td></tr>
+<tr><td><b>Education</b></td><td>Public schools and subsidized college build skills</td><td>Human capital</td></tr>
+<tr><td><b>Financial system</b> (bank regulation, deposit insurance)</td><td>People trust banks, so savings get channeled into investment</td><td>Physical capital</td></tr>
+<tr><td><b>R&amp;D support</b> (research funding, patents)</td><td>Creates and spreads new technology</td><td>Technology</td></tr>
+<tr><td><b>Property rights and political stability</b></td><td>People invest only if they expect to keep the rewards</td><td>All three</td></tr>
+<tr><td><b>Supply-side fiscal policy</b> (lower marginal tax rates, investment tax credits)</td><td>Raises incentives to work, save, and invest</td><td>Physical capital and labor</td></tr>
+</tbody></table></div>
+
+<h3>Supply-side fiscal policies</h3>
+<p>Supply-side policies try to raise the incentive to work, save, and invest, for example by lowering tax rates or reducing regulation. They have the potential to shift <b>both SRAS and LRAS</b> to the right, raising potential output.</p>
+<dl class="terms">
+  <dt>Laffer curve</dt>
+  <dd>A hypothetical curve showing that tax revenue first rises and then falls as the tax rate goes from 0% to 100%. On the downward part, cutting the tax rate would raise revenue.
+    <span class="eg">Almost all economists agree that tax cuts raise incentives to work, save, and invest. They don’t agree that tax cuts will raise tax revenue or sharply raise potential output, because it isn’t clear that real tax rates are high enough to be on that part of the curve.</span></dd>
+</dl>
+
+<h3>Growth and the environment</h3>
+<p>More production has usually meant more pollution and carbon emissions, but slowing growth isn’t the only way to address climate change. Policies like emissions taxes, tradable permits, and support for green technology can reconcile long-run growth with environmental protection; the hard part is getting political agreement, including among countries.</p>
+
+<div class="book"><p class="bh">From your textbook: Krugman’s Macroeconomics for the AP® Course</p>
+<h4>Argentina vs. China (Figure 5.7-1)</h4>
+<p>Seventy years ago, Argentina’s population was much more educated than China’s, where much of the population was illiterate. Education has risen in both countries, but much faster in China. China’s average is still slightly below Argentina’s, mainly because many elderly adults never received basic education, but in high school and college education China has outstripped once-rich Argentina.</p>
+<h4>Edison invented R&amp;D</h4>
+<p>In 1875, Thomas Edison created his Menlo Park, New Jersey, laboratory, employing <b>25 men full time</b> to generate new products and processes year after year. Today R&amp;D operations are standard throughout business. Edison’s R&amp;D was paid for by the private sector, which is still common, but some R&amp;D is done by governments. The U.S. became the world’s leading economy largely because American businesses were among the first to make R&amp;D a systematic part of their operations.</p>
+<h4>Applying technology</h4>
+<p>America’s surge in productivity growth after 1995, as firms learned to use information technology, was not matched in Europe at first.</p>
+<h4>Ireland’s telecommunications</h4>
+<p>Ireland’s economy took off in the 1990s. The government had invested in excellent telecommunications infrastructure in the 1980s, which helped make Ireland a favored location for high-tech companies. Poor infrastructure, like a power grid that often fails, is a major obstacle in some countries. Basic public health (clean water, disease control) may be the most crucial infrastructure of all, especially in low-income countries in Africa. Projects like a hydropower station in Angola (inaugurated in 2017) are key to growth there.</p>
+<h4>Trust in banks</h4>
+<p>If people trust their banks, they deposit savings, and banks lend them to businesses. If they don’t, they hoard gold or foreign currency under the mattress, where it can’t become productive investment. A well-functioning financial system requires appropriate government regulation.</p>
+<h4>COVID-19 and emissions</h4>
+<p>Reduced economic activity during the pandemic led to a <b>4.9%</b> decrease in global GDP in the second quarter of 2020, and to a drop in carbon emissions. The U.S., the European Union, China, and India produce almost <b>60%</b> of human-caused carbon emissions. As economies rebounded, emissions did too. The positive link between production and emissions doesn’t mean shrinking the economy is the only way to fight climate change.</p>
+</div>
+
+<h4>Check yourself</h4>
+<details class="check"><summary>Name a government policy that raises each source of productivity: physical capital, human capital, technology.</summary><div class="ans">Physical capital: investment tax credits or public infrastructure. Human capital: public education or subsidized college. Technology: funding research or strong patent protection.</div></details>
+<details class="check"><summary>What are supply-side policies, and how would you show their effect in AD–AS?</summary><div class="ans">Policies that raise incentives to work, save, and invest, such as lower marginal tax rates. They shift SRAS and LRAS to the right.</div></details>
+<details class="check"><summary>Why does a trustworthy banking system matter for growth?</summary><div class="ans">It channels savings into business investment. Without trust, people hoard savings instead, and the economy builds less physical capital.</div></details>
+<div class="studied"><button type="button" data-done="m57" aria-pressed="false">Mark as studied</button></div>
+</section>
+
+<!-- ================= Cheat sheet ================= -->
+<section class="mod" id="review">
+<header><p class="modnum">Review</p><h2>Unit 5 cheat sheet</h2></header>
+<h3>Every formula</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Formula</th><th>Module</th></tr></thead>
+<tbody>
+<tr><td>Output gap = (actual real GDP − potential output) ÷ potential output × 100</td><td>5.2</td></tr>
+<tr><td>M × V = P × Y</td><td>5.3</td></tr>
+<tr><td>%ΔM + %ΔV ≈ %ΔP + %ΔY</td><td>5.3</td></tr>
+<tr><td>Velocity = nominal GDP ÷ money supply</td><td>5.3</td></tr>
+<tr><td>Budget balance = T − G − TR</td><td>5.4</td></tr>
+<tr><td>Debt this year = debt last year + this year’s deficit (− surplus)</td><td>5.4</td></tr>
+<tr><td>Debt-to-GDP ratio = government debt ÷ GDP × 100</td><td>5.4</td></tr>
+<tr><td>Real GDP per capita = real GDP ÷ population</td><td>5.6</td></tr>
+<tr><td>Growth rate = (new − old) ÷ old × 100</td><td>5.6</td></tr>
+<tr><td>Rule of 70: years to double ≈ 70 ÷ growth rate</td><td>5.6</td></tr>
+<tr><td>Labor productivity = real GDP ÷ number of workers (or hours)</td><td>5.6</td></tr>
+<tr><td>Aggregate production function: real GDP = f(K, L)</td><td>5.6</td></tr>
+</tbody></table></div>
+<h3>The graphs</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Graph</th><th>Axes</th><th>Use it for</th></tr></thead>
+<tbody>
+<tr><td><b>Phillips curve</b></td><td>Inflation rate (vertical), unemployment rate (horizontal); SRPC slopes down, LRPC vertical at the natural rate</td><td>AD shifts (move along SRPC), supply shocks and expectations (SRPC shifts), natural rate changes (LRPC shifts)</td></tr>
+<tr><td><b>AD–AS</b></td><td>Price level, real GDP</td><td>Policy mix, long-run effects of money growth, growth (LRAS right)</td></tr>
+<tr><td><b>Loanable funds</b></td><td>Real interest rate, quantity of loanable funds</td><td>Deficits and crowding out</td></tr>
+<tr><td><b>PPC</b></td><td>Capital goods vs. consumer goods</td><td>Growth (outward shift); investing more today grows the economy faster</td></tr>
+<tr><td><b>Production function</b></td><td>Real GDP per worker, physical capital per worker</td><td>Diminishing returns; technology shifts it up</td></tr>
+</tbody></table></div>
+<h3>Short run vs. long run</h3>
+<div class="tablewrap"><table>
+<thead><tr><th>Event</th><th>Short run</th><th>Long run</th></tr></thead>
+<tbody>
+<tr><td>Money supply ↑</td><td>i ↓, real GDP ↑, PL ↑</td><td>Real GDP back at potential, PL ↑ by the same % as M, i back to original</td></tr>
+<tr><td>Expansionary policy at full employment</td><td>Up-left along SRPC: u ↓, π ↑</td><td>Expectations rise, SRPC shifts up, u back at natural rate with higher π</td></tr>
+<tr><td>Larger budget deficit</td><td>AD ↑ (if used in a recession)</td><td>Real r ↑, private investment ↓, slower capital growth</td></tr>
+<tr><td>Investment in physical capital ↑</td><td>AD ↑</td><td>LRAS → and PPC out (productivity ↑)</td></tr>
+</tbody></table></div>
+<h3>Quick sorter: what happens on the Phillips curve?</h3>
+<div class="widget" id="sorter">
+  <p class="sub">For each event, pick what happens on the Phillips curve graph.</p>
+  <div id="sortList"></div>
+  <p>Score: <span class="score" id="sortScore">0 / 0</span></p>
+</div>
+</section>
+
+<!-- ================= Quiz ================= -->
+<section class="mod" id="quiz">
+<header><p class="modnum">Practice</p><h2>Practice test</h2></header>
+<p>AP-style multiple-choice questions covering the whole unit, written around the topics and examples in your reading. Pick an answer to see whether it’s right and why.</p>
+<div class="widget">
+  <p style="margin:0 0 4px">Score: <span class="score" id="quizScore">0 of 0 answered</span></p>
+  <div id="quizList"></div>
+  <div class="btns"><button class="btn" id="quizReset">Start over</button></div>
+</div>
+</section>
+
+<!-- ================= Glossary ================= -->
+<section class="mod" id="glossary" style="border-bottom:0">
+<header><p class="modnum">Reference</p><h2>Glossary of every Unit 5 term</h2></header>
+<label class="sr" for="glSearch">Search terms</label>
+<input class="search" id="glSearch" type="search" placeholder="Search, for example velocity or Phillips">
+<div class="gl" id="glList"></div>
+<p class="empty" id="glEmpty" hidden>No terms match that search. Try a shorter word.</p>
+</section>
+<footer>Built from your screen recording of Krugman’s Macroeconomics for the AP® Course, 4th edition, Unit 5 (Modules 5.1–5.7, pages 266–322). The recording moved quickly past Module 5.1 and parts of 5.4–5.7, so some sections here are filled in from the standard AP Macroeconomics course content for those topics rather than quoted from your book. Check numbers against your own pages.</footer>
+</main>
+</div>
+<button type="button" class="kidtoggle" data-kid aria-pressed="false">🧸 <span>Simple mode: off</span></button>
+<script>
+(function(){
+let gid=0;
+const W=320,H=250,X=x=>45+x*24,Yc=p=>215-p*19;
+function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;')}
+function sub(lab){return esc(lab).replace(/(\d)$/,'<tspan baseline-shift="sub" font-size="9">$1</tspan>')}
+const COL={d:'var(--ad)',s:'var(--sr)',v:'var(--lr)',k:'var(--ad)',h:'var(--ink3)'};
+// o: {yl, xl, title, aria, curves:[{t:'d'|'s'|'v'|'k'|'h', o:offset, lab, faint, col, (k: top,bot,a,b)}], pts:[{x,p,lab,plab,xlab}], arrows:[[x1,p1,x2,p2]], gap:[a,b]}
+function graph(o){
+  const id='g'+(++gid);let s='';
+  s+=`<svg viewBox="0 0 ${W} ${H}" width="100%" class="gsvg" role="img" aria-label="${esc(o.aria||o.title||'graph')}">`;
+  s+=`<defs><clipPath id="c${id}"><rect x="45" y="25" width="250" height="190"/></clipPath><marker id="a${id}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="var(--ink2)" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>`;
+  if(o.gap){const a=Math.min(o.gap[0],o.gap[1]),b=Math.max(o.gap[0],o.gap[1]);s+=`<rect x="${X(a)}" y="25" width="${X(b)-X(a)}" height="190" fill="var(--hl)" opacity="0.55"/>`;}
+  s+=`<line x1="45" y1="20" x2="45" y2="215" stroke="var(--ink3)"/><line x1="45" y1="215" x2="${W-12}" y2="215" stroke="var(--ink3)"/>`;
+  s+=`<text x="12" y="16" font-size="12" fill="var(--ink2)">${esc(o.yl||'i')}</text><text x="${W-12}" y="246" font-size="12" fill="var(--ink2)" text-anchor="end">${esc(o.xl||'Quantity of money')}</text>`;
+  s+=`<g clip-path="url(#c${id})">`;
+  const curves=o.curves||[];
+  curves.forEach(c=>{const col=c.col||COL[c.t];const st=`stroke="${col}" stroke-width="2.4" fill="none" ${c.faint?'stroke-dasharray="5 4" opacity="0.5"':''}`;
+    if(c.t==='v')s+=`<line x1="${X(c.o)}" y1="25" x2="${X(c.o)}" y2="215" ${st}/>`;
+    else if(c.t==='h')s+=`<line x1="45" y1="${Yc(c.o)}" x2="${X(10.5)}" y2="${Yc(c.o)}" stroke="var(--ink3)" stroke-width="1.6" stroke-dasharray="6 4"/>`;
+    else if(c.t==='d')s+=`<line x1="${X(0.3)}" y1="${Yc(9.7+c.o)}" x2="${X(9.2)}" y2="${Yc(0.8+c.o)}" ${st}/>`;
+    else if(c.t==='s')s+=`<line x1="${X(0.5)}" y1="${Yc(0.5-c.o)}" x2="${X(9.3)}" y2="${Yc(9.3-c.o)}" ${st}/>`;
+    else if(c.t==='k')s+=`<polyline points="${X(0.2)},${Yc(c.top)} ${X(c.a)},${Yc(c.top)} ${X(c.b)},${Yc(c.bot)} ${X(10)},${Yc(c.bot)}" ${st}/>`;
+  });
+  (o.pts||[]).forEach(p=>{s+=`<line x1="45" y1="${Yc(p.p)}" x2="${X(p.x)}" y2="${Yc(p.p)}" stroke="var(--ink3)" stroke-dasharray="3 3"/><line x1="${X(p.x)}" y1="${Yc(p.p)}" x2="${X(p.x)}" y2="215" stroke="var(--ink3)" stroke-dasharray="3 3"/>`;});
+  s+=`</g>`;
+  (o.arrows||[]).forEach(a=>{s+=`<line x1="${X(a[0])}" y1="${Yc(a[1])}" x2="${X(a[2])}" y2="${Yc(a[3])}" stroke="var(--ink2)" stroke-width="1.6" marker-end="url(#a${id})"/>`;});
+  curves.forEach(c=>{if(!c.lab)return;const col=c.col||COL[c.t];let x,y,anc='start';
+    if(c.t==='v'){x=X(c.o);y=18;anc='middle';}
+    else if(c.t==='h'){x=X(9.4);y=Yc(c.o)-5;anc='end';}
+    else if(c.t==='d'){const pe=0.8+c.o;if(pe<0.5){x=X(10+c.o-0.5)+4;y=Yc(0.5)+2;}else{const p=Math.min(9.6,pe);x=X(9.2)+3;y=Yc(p)+4;}}
+    else if(c.t==='s'){const p=Math.max(0.6,Math.min(9.6,9.3-c.o));x=X(9.3)+3;y=Yc(p)+4;}
+    else if(c.t==='k'){x=X(10)-2;y=Yc(c.bot)-6;anc='end';}
+    if(c.lx!==undefined){x=X(c.lx);y=Yc(c.ly);if(c.anc)anc=c.anc;}
+    s+=`<text x="${x}" y="${y}" font-size="12" font-weight="600" fill="${c.t==='h'?'var(--ink2)':col}" text-anchor="${anc}">${sub(c.lab)}</text>`;});
+  (o.pts||[]).forEach(p=>{s+=`<circle cx="${X(p.x)}" cy="${Yc(p.p)}" r="4" fill="var(--pt)"/>`;
+    if(p.lab)s+=`<text x="${X(p.x)+7}" y="${Yc(p.p)-7}" font-size="12" font-weight="600" fill="var(--ink)">${sub(p.lab)}</text>`;
+    if(p.plab)s+=`<text x="40" y="${Yc(p.p)+4}" font-size="11.5" fill="var(--ink2)" text-anchor="end">${sub(p.plab)}</text>`;
+    if(p.xlab)s+=`<text x="${X(p.x)}" y="230" font-size="11.5" fill="var(--ink2)" text-anchor="middle">${sub(p.xlab)}</text>`;});
+  s+=`</svg>`;
+  if(o.title)s+=`<p class="gt">${esc(o.title)}</p>`;
+  return s;
+}
+function put(id,o){const el=document.getElementById(id);if(el)el.innerHTML=graph(o);}
+const AS={yl:'PL',xl:'Real GDP'};const as=(o)=>Object.assign({},AS,o);
+const PC={yl:'Inflation rate',xl:'Unemployment rate'};const pc=(o)=>Object.assign({},PC,o);
+const LF={yl:'r',xl:'Quantity of loanable funds'};const lf=(o)=>Object.assign({},LF,o);
+put('heroGraph',pc({aria:'Short-run and long-run Phillips curves',curves:[{t:'v',o:5,lab:'LRPC'},{t:'d',o:0,lab:'SRPC'}],pts:[{x:5,p:5,lab:'E',plab:'π1',xlab:'un'}]}));
+put('figRecGap',as({title:'Recessionary gap: expansionary policy',gap:[4,5],curves:[{t:'v',o:5,lab:'LRAS'},{t:'d',o:-2,lab:'AD1',faint:1},{t:'d',o:0,lab:'AD2'},{t:'s',o:0,lab:'SRAS'}],pts:[{x:4,p:4,plab:'PL1',xlab:'Y1'},{x:5,p:5,plab:'PL2',xlab:'Yp'}],arrows:[[6.3,1.7,7.3,2.7]]}));
+put('figInfGap',as({title:'Inflationary gap: contractionary policy',gap:[5,6],curves:[{t:'v',o:5,lab:'LRAS'},{t:'d',o:2,lab:'AD1',faint:1},{t:'d',o:0,lab:'AD2'},{t:'s',o:0,lab:'SRAS'}],pts:[{x:6,p:6,plab:'PL1',xlab:'Y1'},{x:5,p:5,plab:'PL2',xlab:'Yp'}],arrows:[[7.4,4.6,6.4,3.6]]}));
+put('figSRPC',pc({title:'Short-run Phillips curve',curves:[{t:'d',o:0,lab:'SRPC'}],pts:[{x:3,p:7,lab:'Low u, high π'},{x:7,p:3,lab:'High u, low π'}]}));
+put('figADmove',pc({title:'AD ↑: up-left along SRPC',curves:[{t:'v',o:5,lab:'LRPC'},{t:'d',o:0,lab:'SRPC'}],pts:[{x:5,p:5,lab:'A',plab:'π1',xlab:'un'},{x:3.5,p:6.5,lab:'B',plab:'π2',xlab:'u2'}],arrows:[[4.6,5.9,3.9,6.6]]}));
+put('figSupShock',as({title:'Supply shock: SRAS left',curves:[{t:'v',o:5,lab:'LRAS'},{t:'d',o:0,lab:'AD'},{t:'s',o:0,lab:'SRAS1',faint:1},{t:'s',o:-1.6,lab:'SRAS2',lx:7.3,ly:9.5,anc:'end'}],pts:[{x:5,p:5,plab:'PL1',xlab:'Yp'},{x:4.2,p:5.8,plab:'PL2',xlab:'Y2'}],arrows:[[7.6,7.2,6.4,7.2]]}));
+put('figSRPCshift',pc({title:'Same shock: SRPC shifts right',curves:[{t:'v',o:5,lab:'LRPC'},{t:'d',o:0,lab:'SRPC1',faint:1},{t:'d',o:2,lab:'SRPC2'}],pts:[{x:5,p:5,plab:'π1',xlab:'un'},{x:6,p:6,plab:'π2',xlab:'u2'}],arrows:[[6.7,3.8,7.7,4.8]]}));
+put('figLRPC',pc({title:'Expected inflation sets each SRPC',curves:[{t:'v',o:5,lab:'LRPC'},{t:'d',o:0,lab:'SRPC0'},{t:'d',o:1.5,lab:'SRPC2'},{t:'d',o:3,lab:'SRPC4'}],pts:[{x:5,p:5,lab:'E0',plab:'0%'},{x:5,p:6.5,lab:'E2',plab:'2%'},{x:5,p:8,lab:'E4',plab:'4%',xlab:'6%'}]}));
+put('figLRadj',pc({title:'Long run: back to the LRPC',curves:[{t:'v',o:5,lab:'LRPC'},{t:'d',o:0,lab:'SRPC1',faint:1},{t:'d',o:1.5,lab:'SRPC2'}],pts:[{x:5,p:5,lab:'E',plab:'π1'},{x:3.5,p:6.5,lab:'B',plab:'πB',xlab:'uB'},{x:5,p:6.5,lab:'EB',xlab:'un'}],arrows:[[6.6,2.8,7.4,3.9]]}));
+put('figMSlong',as({aria:'Money supply increase: short run and long run',curves:[{t:'v',o:5,lab:'LRAS'},{t:'d',o:-1,lab:'AD1',faint:1},{t:'d',o:1,lab:'AD2'},{t:'s',o:1,lab:'SRAS1',faint:1},{t:'s',o:-1,lab:'SRAS2'}],pts:[{x:5,p:4,lab:'E1',plab:'PL1',xlab:'Y1'},{x:6,p:5,lab:'E2',plab:'PL2',xlab:'Y2'},{x:5,p:6,lab:'E3',plab:'PL3'}],arrows:[[2.8,6.6,3.8,6.6],[8.4,7.8,7.4,7.8]]}));
+put('figCrowd',lf({title:'Deficit ↑: DLF right, r ↑',curves:[{t:'d',o:0,lab:'DLF1',faint:1},{t:'d',o:2,lab:'DLF2'},{t:'s',o:0,lab:'SLF'}],pts:[{x:5,p:5,plab:'r1',xlab:'Q1'},{x:6,p:6,plab:'r2',xlab:'Q2'}],arrows:[[6.8,3.2,7.8,4.2]]}));
+put('figLRAS',as({title:'Growth: LRAS shifts right',curves:[{t:'v',o:3,lab:'LRAS1',faint:1},{t:'v',o:5,lab:'LRAS2',faint:1},{t:'v',o:7,lab:'LRAS3'}],pts:[],arrows:[[3.2,5,4.8,5],[5.2,5,6.8,5]]}));
+// custom curves
+function svgBox(aria,yl,xl,inner,title){return `<svg viewBox="0 0 320 250" width="100%" class="gsvg" role="img" aria-label="${esc(aria)}"><line x1="45" y1="20" x2="45" y2="215" stroke="var(--ink3)"/><line x1="45" y1="215" x2="308" y2="215" stroke="var(--ink3)"/><text x="12" y="14" font-size="12" fill="var(--ink2)">${esc(yl)}</text><text x="308" y="246" font-size="12" fill="var(--ink2)" text-anchor="end">${esc(xl)}</text>${inner}</svg>`+(title?`<p class="gt">${esc(title)}</p>`:'');}
+function ppc(r,col,faint,lab,ang){ang=ang||0.55;const cx=45,cy=215;let d='';for(let i=0;i<=40;i++){const t=i/40*Math.PI/2;const x=cx+r*1.25*Math.sin(t),y=cy-r*Math.cos(t);d+=(i?'L':'M')+x.toFixed(1)+' '+y.toFixed(1);}
+ return `<path d="${d}" fill="none" stroke="${col}" stroke-width="2.4" ${faint?'stroke-dasharray="5 4" opacity="0.55"':''}/>`+(lab?`<text x="${cx+r*1.25*Math.sin(ang)+(faint?-34:6)}" y="${cy-r*Math.cos(ang)+(faint?18:-6)}" font-size="12" font-weight="600" fill="${col}">${lab}</text>`:'');}
+function ppcFig(id,title,r1,r2,cap){const el=document.getElementById(id);if(!el)return;
+ let inner=ppc(150,'var(--ad)',1,'PPC₁',0.3)+ppc(r2,'var(--sr)',0,'PPC₂');
+ inner+=`<line x1="${45+150*1.25*0.62}" y1="${215-150*0.78}" x2="${45+r2*1.25*0.62}" y2="${215-r2*0.78}" stroke="var(--ink2)" stroke-width="1.6" marker-end="url(#ar${id})"/><defs><marker id="ar${id}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M2 1L8 5L2 9" fill="none" stroke="var(--ink2)" stroke-width="1.6"/></marker></defs>`;
+ if(cap)inner+=`<text x="300" y="34" font-size="11.5" fill="var(--ink2)" text-anchor="end">${cap}</text>`;
+ el.innerHTML=svgBox(title,'Capital goods','Consumer goods',inner,title);}
+ppcFig('figCrowdPPC','Crowding out: smaller outward shift',150,163,'without crowding out it would shift further');
+ppcFig('figGrowthPPC','Economic growth: PPC shifts out',150,185,'');
+(function(){const el=document.getElementById('figProdFn');if(!el)return;
+ const f=(k,a)=>215-a*Math.sqrt(k);let d1='',d2='';for(let i=0;i<=50;i++){const k=i/50*250;const x=45+k;d1+=(i?'L':'M')+x.toFixed(1)+' '+f(k,9).toFixed(1);d2+=(i?'L':'M')+x.toFixed(1)+' '+f(k,11.5).toFixed(1);}
+ const inner=`<path d="${d1}" fill="none" stroke="var(--ad)" stroke-width="2.4"/><path d="${d2}" fill="none" stroke="var(--sr)" stroke-width="2.4" stroke-dasharray="6 4"/><text x="298" y="${f(250,9)+16}" font-size="12" font-weight="600" fill="var(--ad)" text-anchor="end">Today’s technology</text><text x="298" y="${f(250,11.5)-8}" font-size="12" font-weight="600" fill="var(--sr)" text-anchor="end">Better technology</text>`;
+ el.innerHTML=svgBox('Aggregate production function with diminishing returns','Real GDP per worker','Physical capital per worker',inner,'Diminishing returns to capital');})();
+
+// progress
+const MODS=['m51','m52','m53','m54','m55','m56','m57'];
+const KEY='apmacro-u5-done';let done={};
+try{done=JSON.parse(localStorage.getItem(KEY)||'{}')||{};}catch(e){done={};}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(done));}catch(e){}}
+function renderProg(){let n=0;
+ MODS.forEach(m=>{const on=!!done[m];if(on)n++;const a=document.querySelector(`#tocList a[href="#${m}"]`);if(a)a.classList.toggle('done',on);
+  const b=document.querySelector(`[data-done="${m}"]`);if(b){b.setAttribute('aria-pressed',on);b.textContent=on?'✓ Studied':'Mark as studied';}});
+ document.getElementById('progTxt').textContent=`${n} of ${MODS.length} modules studied`;document.getElementById('progBar').style.width=(n/MODS.length*100)+'%';}
+document.querySelectorAll('[data-done]').forEach(b=>b.addEventListener('click',()=>{const m=b.dataset.done;done[m]=!done[m];save();renderProg();}));
+renderProg();
+const money=n=>'$'+Math.round(n).toLocaleString();
+const pct=n=>(Math.round(n*10)/10)+'%';
+
+// Phillips lab
+let pu=5,po=0,un=5,pMsg='Start: long-run equilibrium. Unemployment is at the natural rate (5%) and inflation equals expected inflation (2%).';
+const PCE=[
+ ['AD increases',()=>{pu-=1.2},'AD shifted right. The economy moves up and to the left along the SRPC: unemployment falls, inflation rises.'],
+ ['AD decreases',()=>{pu+=1.2},'AD shifted left. The economy moves down and to the right along the SRPC: unemployment rises, inflation falls.'],
+ ['Negative supply shock',()=>{po+=1.5;pu+=0.75},'SRAS shifted left (say, an oil price spike). The SRPC shifts right: unemployment and inflation both rise. That’s stagflation.'],
+ ['Positive supply shock',()=>{po-=1.5;pu-=0.75},'SRAS shifted right (say, cheaper energy). The SRPC shifts left: unemployment and inflation both fall.'],
+ ['Expected inflation rises',()=>{po+=1.5},'People expect more inflation, so wages and prices rise faster. The SRPC shifts up: higher inflation at every unemployment rate.'],
+ ['Natural rate falls',()=>{un-=1.2;po-=1.2;pu-=1.2},'Better job matching lowered the natural rate of unemployment. The LRPC (and the SRPC with it) shifts left.'],
+ ['Let expectations adjust',()=>{const p=10+po-pu;po=p+un-10;pu=un;},'Long run: expectations catch up with actual inflation. The SRPC shifts until the economy is back on the LRPC at the natural rate, with inflation equal to expected inflation.']];
+const pcB=document.getElementById('pcBtns');
+function drawPC(){pu=Math.max(1,Math.min(9,pu));po=Math.max(-3.5,Math.min(3.5,po));un=Math.max(2.6,Math.min(7.4,un));const p=10+po-pu;
+ const cur=[{t:'v',o:un,lab:'LRPC'},{t:'d',o:po,lab:'SRPC'}];
+ if(po!==0)cur.unshift({t:'d',o:0,faint:1});if(un!==5)cur.unshift({t:'v',o:5,faint:1});
+ document.getElementById('pcGraph').innerHTML=graph(pc({aria:'Phillips curve lab',curves:cur,pts:[{x:pu,p:p,plab:pct(p-3),xlab:pct(pu)}]}));
+ const gap=Math.round((pu-un)*10)/10;const st=gap<0?'Unemployment is below the natural rate (inflationary gap).':gap>0?'Unemployment is above the natural rate (recessionary gap).':'Unemployment equals the natural rate: the economy is on the LRPC.';
+ document.getElementById('pcS').innerHTML=`${pMsg}<span class="mini">Unemployment ${pct(pu)}, natural rate ${pct(un)}, inflation ${pct(p-3)}. ${st}</span>`;}
+PCE.forEach(e=>{const b=document.createElement('button');b.className='btn';b.textContent=e[0];b.addEventListener('click',()=>{e[1]();pMsg=e[2];drawPC();});pcB.appendChild(b);});
+{const rb=document.createElement('button');rb.className='btn';rb.textContent='Reset';rb.addEventListener('click',()=>{pu=5;po=0;un=5;pMsg='Start: long-run equilibrium. Unemployment is at the natural rate (5%) and inflation equals expected inflation (2%).';drawPC();});pcB.appendChild(rb);}
+drawPC();
+
+// QTM widget
+const qM=document.getElementById('qM'),qV=document.getElementById('qV'),qY=document.getElementById('qY');
+function qtm(){const m=+qM.value,v=+qV.value,y=+qY.value,p=m+v-y;
+ document.getElementById('qMo').textContent=m+'%';document.getElementById('qVo').textContent=v+'%';document.getElementById('qYo').textContent=y+'%';
+ document.getElementById('qP').textContent=p+'%';document.getElementById('qN').textContent=(m+v)+'%';
+ let s=`%ΔP = ${m} + ${v} − ${y} = <b>${p}%</b>. `;
+ if(p<0)s+='Prices are falling: deflation. Money isn’t growing fast enough to keep up with output.';
+ else if(p===0)s+='Stable prices: money growth exactly matches output growth.';
+ else if(p>=15)s+='Very high inflation. When money grows much faster than output, prices take off.';
+ else s+=v===0?'With velocity steady, inflation is just money growth minus real GDP growth.':'Notice that a change in velocity changes inflation too. That’s why unstable velocity broke the monetarist rule.';
+ document.getElementById('qS').innerHTML=s;}
+[qM,qV,qY].forEach(el=>el.addEventListener('input',qtm));qtm();
+
+// debt widget
+const dD=document.getElementById('dD'),dG=document.getElementById('dG');
+function debt(){const a=+dD.value,b=+dG.value,D=100*Math.pow(1+a/100,10),G=100*Math.pow(1+b/100,10),r=D/G*100;
+ document.getElementById('dDo').textContent=a+'%';document.getElementById('dGo').textContent=b+'%';
+ document.getElementById('dDv').textContent=Math.round(D);document.getElementById('dGv').textContent=Math.round(G);document.getElementById('dR').textContent=Math.round(r)+'%';
+ document.getElementById('dS').innerHTML=a<b?`<b>The debt rose ${Math.round(D-100)}%</b>, but GDP grew faster, so the debt-to-GDP ratio <b>fell</b> to ${Math.round(r)}%. This is what happened for 30 years after World War II.`:a>b?`Debt grew faster than GDP, so the ratio <b>rose</b> to ${Math.round(r)}%. This is what happened after 2008 and in 2020.`:'Debt and GDP grew at the same rate, so the ratio stayed at 100%.';}
+[dD,dG].forEach(el=>el.addEventListener('input',debt));debt();
+
+// growth widget
+const gR=document.getElementById('gR'),gS=document.getElementById('gS');
+function grow(){const r=+gR.value,s=+gS.value;document.getElementById('gRo').textContent=r+'%';document.getElementById('gSo').textContent=money(s);
+ document.getElementById('gD').textContent=Math.round(70/r*10)/10;document.getElementById('g35').textContent=money(s*Math.pow(1+r/100,35));document.getElementById('g70').textContent=money(s*Math.pow(1+r/100,70));}
+[gR,gS].forEach(el=>el.addEventListener('input',grow));grow();
+
+// sorter
+const SO=['Up-left along SRPC','Down-right along SRPC','SRPC shifts right','SRPC shifts left','LRPC shifts right','LRPC shifts left'];
+const SI=[
+ ['Congress increases government spending.',0,'AD shifts right: unemployment falls and inflation rises, a movement up and to the left along the SRPC.'],
+ ['The Fed sells government bonds.',1,'Interest rates rise and AD shifts left: higher unemployment, lower inflation, a movement down the SRPC.'],
+ ['Oil prices spike worldwide.',2,'A negative supply shock shifts SRAS left, raising both unemployment and inflation, so the SRPC shifts right.'],
+ ['Workers and firms come to expect higher inflation.',2,'Higher expected inflation shifts SRAS left and the SRPC right (up).'],
+ ['A major productivity gain lowers production costs across the economy.',3,'SRAS shifts right, lowering both inflation and unemployment: the SRPC shifts left.'],
+ ['Unemployment benefits become much more generous, raising the natural rate of unemployment.',4,'A higher natural rate shifts the LRPC right.'],
+ ['Online job-matching sites cut frictional unemployment.',5,'A lower natural rate of unemployment shifts the LRPC left.'],
+ ['Consumers become pessimistic and cut spending.',1,'AD shifts left: a movement down and to the right along the SRPC.'],
+ ['After years of stable prices, people expect lower inflation.',3,'Lower expected inflation shifts SRAS right and the SRPC left (down).'],
+ ['The government cuts income taxes for households.',0,'Consumption rises, AD shifts right: up and to the left along the SRPC.'],
+ ['The Fed raises the interest rate it pays on reserves.',1,'Higher interest rates reduce investment, AD shifts left: down the SRPC.'],
+ ['A drought destroys much of the nation’s harvest.',2,'Another negative supply shock: SRAS left, SRPC right.']];
+let sc=0,sa=0;const sl=document.getElementById('sortList');
+SI.forEach((it,i)=>{const d=document.createElement('div');d.className='q';
+ d.innerHTML=`<p class="prompt">${i+1}. ${esc(it[0])}</p><div class="sortopts">${SO.map((o,j)=>`<button class="opt" data-j="${j}">${o}</button>`).join('')}</div><p class="explain"></p>`;
+ d.querySelectorAll('.opt').forEach(b=>b.addEventListener('click',()=>{const j=+b.dataset.j;sa++;if(j===it[1])sc++;
+  d.querySelectorAll('.opt').forEach(x=>{x.disabled=true;if(+x.dataset.j===it[1])x.classList.add('right');});if(j!==it[1])b.classList.add('wrong');
+  const e=d.querySelector('.explain');e.textContent=(j===it[1]?'Correct. ':'Not quite. ')+it[2];e.classList.add('show');
+  document.getElementById('sortScore').textContent=sc+' / '+sa;}));sl.appendChild(d);});
+
+// quiz
+const Q=[
+ ['The economy is in a recessionary gap. Which combination of policies would most certainly increase real GDP?',['Higher taxes and selling bonds','Lower taxes and buying bonds','Higher spending and selling bonds','Lower spending and buying bonds'],1,'Both are expansionary, so AD rises for sure. (The effect on interest rates would be uncertain.)'],
+ ['The government increases spending while the central bank sells bonds. Which is certain?',['Real GDP rises','The price level falls','The interest rate rises','Unemployment falls'],2,'Both push interest rates up. Their effects on AD work against each other, so output and prices are uncertain.'],
+ ['The Federal Reserve’s dual mandate is:',['Balanced budgets and low taxes','Maximum employment and price stability','Low interest rates and a strong dollar','Economic growth and low debt'],1,'Congress gave the Fed the mandate to pursue maximum employment and stable prices.'],
+ ['The short-run Phillips curve shows a:',['Positive relationship between inflation and unemployment','Negative relationship between inflation and unemployment','Vertical line at the natural rate','Negative relationship between real GDP and the price level'],1,'In the short run, lower unemployment comes with higher inflation.'],
+ ['An increase in aggregate demand is shown on the Phillips curve as a:',['Rightward shift of the SRPC','Leftward shift of the LRPC','Movement up and to the left along the SRPC','Movement down and to the right along the SRPC'],2,'AD shifts cause movements along the SRPC. AD up means lower unemployment and higher inflation.'],
+ ['A sharp rise in the price of oil will most likely:',['Shift the SRPC to the right','Shift the SRPC to the left','Shift the LRPC to the left','Cause a movement along the SRPC'],0,'A negative supply shock shifts SRAS left, raising both inflation and unemployment: the SRPC shifts right.'],
+ ['An increase in expected inflation shifts:',['SRAS right and SRPC left','SRAS left and SRPC right','AD right and SRPC left','LRAS left and LRPC right'],1,'This is the AP® Econ Tip in your book. Higher expected inflation raises wages: SRAS left, SRPC right (up).'],
+ ['The long-run Phillips curve is vertical at:',['0% inflation','The target inflation rate','The natural rate of unemployment','Full employment, meaning 0% unemployment'],2,'In the long run, the economy returns to the natural rate of unemployment, whatever the inflation rate.'],
+ ['Which would shift the long-run Phillips curve to the left?',['An increase in AD','A decrease in expected inflation','A decrease in the natural rate of unemployment','An oil price shock'],2,'Only changes in the natural rate shift the LRPC. A lower natural rate shifts it left.'],
+ ['If policymakers keep unemployment below the natural rate for a long time, the result will be:',['Steady, low inflation','Accelerating inflation','Deflation','A permanently lower natural rate'],1,'Expectations keep catching up, so holding unemployment that low requires ever-higher inflation. There is no long-run trade-off.'],
+ ['In the textbook example, the economy starts at potential output with 2% inflation. AD falls and unemployment rises to 7%. Inflation becomes:',['4%','2%','0%','7%'],2,'Figure 5.2-4: the negative output gap pushes unemployment to 7% and inflation to 0%.'],
+ ['In the long run, an increase in the money supply will:',['Increase real GDP and the price level','Increase the price level only','Increase real GDP only','Lower the interest rate permanently'],1,'Monetary neutrality: in the long run only the price level changes.'],
+ ['If the money supply rises 50% and the economy returns to long-run equilibrium, the price level will:',['Rise 25%','Rise 50%','Rise 100%','Not change'],1,'Restoring the real money supply (M/P) requires the price level to rise by the same 50%.'],
+ ['According to the quantity theory, if velocity is constant, the money supply grows 7%, and real GDP grows 3%, inflation is about:',['3%','4%','7%','10%'],1,'%ΔP = 7 + 0 − 3 = 4%.'],
+ ['M = $4 trillion, V = 5, and real GDP = $16 trillion. The price level is:',['0.8','1.25','2','20'],1,'P = MV ÷ Y = 20 ÷ 16 = 1.25.'],
+ ['Monetarists argued that the central bank should:',['Change the money supply often to fine-tune the economy','Follow a rule of slow, steady money growth','Balance the federal budget','Target the unemployment rate'],1,'Friedman favored a monetary policy rule with little discretion. It relies on stable velocity.'],
+ ['When Turkey replaced 1,000,000 old lira with 1 new lira in 2005, real GDP:',['Rose sharply','Fell sharply','Did not change','Rose by six orders of magnitude'],2,'Only the number of zeros on prices changed. That’s monetary neutrality.'],
+ ['Tax revenue is $500 billion, government purchases are $450 billion, and transfers are $150 billion. The budget balance is:',['+$100 billion','−$100 billion','+$50 billion','−$200 billion'],1,'Budget balance = T − G − TR = 500 − 450 − 150 = −$100 billion: a deficit.'],
+ ['During a recession, with no change in fiscal policy, the budget balance will:',['Move toward surplus','Move toward deficit','Stay the same','Become exactly balanced'],1,'Automatic stabilizers: tax revenue falls and transfers rise, so the budget moves toward deficit.'],
+ ['The national debt is best described as:',['This year’s spending minus taxes','The sum of past deficits minus past surpluses','The total value of government bonds held by the Fed','The trade deficit'],1,'The debt is a stock: the accumulation of all past deficits net of surpluses.'],
+ ['The debt-to-GDP ratio can fall even when the debt is rising if:',['Interest rates rise','GDP grows faster than the debt','The government runs a deficit','Inflation is zero'],1,'This is what happened for 30 years after World War II.'],
+ ['Crowding out occurs when government borrowing:',['Lowers the real interest rate and raises investment','Raises the real interest rate and reduces private investment','Raises the money supply','Reduces net exports only'],1,'More demand for loanable funds raises the real interest rate, so private investment falls.'],
+ ['On the loanable funds graph, an increase in the budget deficit is usually shown as:',['A rightward shift of demand for loanable funds','A leftward shift of demand','A rightward shift of supply','A vertical supply curve'],0,'The government borrows more, increasing demand. (Some teachers show it as a leftward supply shift; either way r rises.)'],
+ ['Crowding out can slow long-run growth because it reduces:',['Consumer spending','Exports','Accumulation of physical capital','The money supply'],2,'Less private investment means less physical capital and slower productivity growth.'],
+ ['Real GDP grows 2% and population grows 2%. Real GDP per capita:',['Grows 4%','Grows 2%','Stays about the same','Falls 2%'],2,'Per capita growth ≈ real GDP growth − population growth = 0%.'],
+ ['An economy’s real GDP per capita grows at 5% a year. It will double in about:',['5 years','14 years','20 years','35 years'],1,'Rule of 70: 70 ÷ 5 = 14 years.'],
+ ['Which is the best example of an increase in human capital?',['A firm buys new computers','Workers complete a job-training program','The government builds a bridge','A new oil field is discovered'],1,'Human capital is the skill and knowledge of workers.'],
+ ['Diminishing returns to physical capital means that, holding other factors constant:',['Output falls as capital rises','Each additional unit of capital per worker adds less output','Technology stops improving','Capital wears out'],1,'That’s why the aggregate production function flattens out.'],
+ ['Long-run economic growth is shown in the AD–AS model as:',['AD shifting right','SRAS shifting left','LRAS shifting right','A movement along LRAS'],2,'Growth means potential output rises, so LRAS shifts right.'],
+ ['According to the AP® Econ Tip, which phrase describes a source of long-run growth rather than a short-run AD change?',['Increased investment','Increased investment in physical capital','Increased consumption','Increased government purchases'],1,'“Investment in physical capital” raises productivity. “Investment” alone is a component of AD.'],
+ ['A country that devotes more resources to capital goods today will most likely:',['Have a PPC that shifts outward more in the future','Have a PPC that shifts inward','Have less long-run growth','Move inside its PPC'],0,'More capital goods today means more productive capacity tomorrow.'],
+ ['Which government policy is most likely to promote long-run growth?',['Restricting access to education','Investing in infrastructure such as power grids and telecommunications','Raising tax rates on savings','Weakening property rights'],1,'Ireland’s 1980s telecom investment is your book’s example.'],
+ ['Supply-side fiscal policies, such as lowering marginal tax rates, aim to:',['Shift AD left','Raise incentives to work, save, and invest, shifting SRAS and LRAS right','Lower the money supply','Raise the natural rate of unemployment'],1,'Economists agree on the incentive effects but disagree about how large the effect on revenue and potential output is.'],
+ ['A well-functioning banking system promotes growth mainly by:',['Printing money','Channeling savings into business investment','Raising tax revenue','Lowering the natural rate of unemployment'],1,'When people trust banks, savings become loans for productive investment.']];
+const ql=document.getElementById('quizList');
+function buildQuiz(){ql.innerHTML='';let c=0,a=0;const upd=()=>document.getElementById('quizScore').textContent=`${c} correct, ${a} of ${Q.length} answered`;
+ Q.forEach((q,i)=>{const d=document.createElement('div');d.className='q';
+  d.innerHTML=`<p class="prompt">${i+1}. ${esc(q[0])}</p><div class="opts">${q[1].map((o,j)=>`<button class="opt" data-j="${j}">${String.fromCharCode(65+j)}. ${esc(o)}</button>`).join('')}</div><p class="explain"></p>`;
+  d.querySelectorAll('.opt').forEach(b=>b.addEventListener('click',()=>{const j=+b.dataset.j;a++;if(j===q[2])c++;
+   d.querySelectorAll('.opt').forEach(x=>{x.disabled=true;if(+x.dataset.j===q[2])x.classList.add('right');});if(j!==q[2])b.classList.add('wrong');
+   const e=d.querySelector('.explain');e.textContent=(j===q[2]?'Correct. ':'Not quite. ')+q[3];e.classList.add('show');upd();}));
+  ql.appendChild(d);});upd();}
+document.getElementById('quizReset').addEventListener('click',buildQuiz);buildQuiz();
+
+// glossary [term, module, definition, simple]
+const G=[
+['Fiscal policy','5.1','Government changes in purchases, taxes, and transfers to influence the economy.','The government spending more or less, or taxing more or less.'],
+['Monetary policy','5.1','Central bank actions that change interest rates and the money supply to influence the economy.','The central bank making borrowing cheaper or more expensive.'],
+['Dual mandate','5.1','The Fed’s goals set by Congress: maximum employment and price stability.','The Fed’s two jobs: lots of jobs and steady prices.'],
+['Policy mix','5.1','Using fiscal and monetary policy together. Same direction: AD effect certain, interest rate uncertain. Opposite directions: AD uncertain, interest rate certain.','Using both steering wheels at once.'],
+['Output gap','5.2','The percentage difference between actual real GDP and potential output.','How far the economy is from what it normally makes.'],
+['Short-run Phillips curve (SRPC)','5.2','The negative short-run relationship between unemployment and inflation.','A downhill line: fewer jobless people, faster-rising prices.'],
+['Long-run Phillips curve (LRPC)','5.2','The relationship between unemployment and inflation after expectations adjust; vertical at the natural rate of unemployment.','A straight-up line at normal unemployment.'],
+['Natural rate of unemployment','5.2','The normal unemployment rate around which the actual rate fluctuates; frictional plus structural unemployment.','The normal amount of unemployment in a healthy economy.'],
+['NAIRU','5.2','The nonaccelerating inflation rate of unemployment: the rate at which inflation doesn’t change. Equal to the natural rate.','The unemployment rate where inflation holds steady.'],
+['Expected inflation','5.2','The inflation rate workers and firms expect, based mostly on recent experience. Higher expected inflation shifts SRAS left and SRPC right.','How fast people think prices will rise.'],
+['Supply shock','5.2','An event that shifts SRAS. A negative shock (SRAS left) shifts SRPC right; a positive shock shifts it left.','A sudden change in how cheap or costly it is to make things.'],
+['Stagflation','5.2','High unemployment and high inflation at the same time, usually from a negative supply shock.','Lots of people jobless and prices rising fast.'],
+['Disinflation','5.2','A reduction in the inflation rate.','Prices still rising, but slower.'],
+['Deflation','5.2','A falling aggregate price level.','Prices going down overall.'],
+['Monetary neutrality','5.3','Changes in the money supply have no real effects in the long run; they only change the price level proportionally.','More money just means higher prices, not more stuff, in the long run.'],
+['Velocity of money','5.3','The number of times the average dollar is spent in a year: nominal GDP ÷ money supply.','How many times a dollar gets spent in a year.'],
+['Quantity Theory of Money','5.3','M × V = P × Y; with stable velocity and output at potential, money growth determines inflation.','Money × how fast it’s spent = prices × stuff made.'],
+['Monetarism','5.3','Friedman’s view that GDP grows steadily if the money supply grows steadily; favors a monetary policy rule.','Grow the money supply slowly and steadily, like a rule.'],
+['Monetary policy rule','5.3','A formula for monetary policy, such as a fixed rate of money growth, that limits central bank discretion.','A set plan the central bank follows instead of deciding each time.'],
+['Budget balance','5.4','T − G − TR: tax revenue minus government purchases minus transfers.','What the government collects minus what it spends.'],
+['Budget surplus','5.4','A positive budget balance.','The government collects more than it spends.'],
+['Budget deficit','5.4','A negative budget balance.','The government spends more than it collects.'],
+['Cyclically adjusted budget balance','5.4','An estimate of the budget balance if real GDP were at potential output.','What the budget would look like in a normal year.'],
+['Automatic stabilizers','5.4','Taxes and transfers that automatically become expansionary in recessions and contractionary in expansions.','Help that turns on by itself when times are bad.'],
+['Fiscal year','5.4','The U.S. government’s budget year, October 1 to September 30.','The government’s year for counting money.'],
+['Government debt (national debt)','5.4','The accumulation of past budget deficits minus past surpluses.','All the money the government still owes.'],
+['Debt-to-GDP ratio','5.4','Government debt as a percentage of GDP.','How big the debt is compared with the whole economy.'],
+['Default','5.4','Failure to make promised debt payments.','When a borrower stops paying back.'],
+['Implicit liabilities','5.4','Spending promises not counted in the official debt, mainly Social Security, Medicare, and Medicaid.','Promises to pay later that aren’t counted as debt yet.'],
+['Crowding out','5.5','The reduction in private investment caused by government borrowing raising the real interest rate.','The government borrows a lot, interest goes up, businesses borrow less.'],
+['Loanable funds market','5.5','A hypothetical market where savers supply funds and borrowers demand them, setting the real interest rate.','The marketplace of savers and borrowers.'],
+['Treasury bonds','5.5','Debt securities the U.S. Treasury sells to finance government borrowing.','IOUs the government sells to borrow money.'],
+['Long-run economic growth','5.6','A sustained rise in real GDP per capita over time.','A country getting richer year after year.'],
+['Real GDP per capita','5.6','Real GDP divided by population; the best simple measure of the standard of living.','Stuff made per person.'],
+['Rule of 70','5.6','Years for a variable to double ≈ 70 ÷ its annual growth rate.','70 ÷ growth rate = years to double.'],
+['Labor productivity','5.6','Output per worker or per hour worked.','How much one worker makes.'],
+['Physical capital','5.6','Human-made resources such as buildings and machines used to produce goods and services.','Tools, machines, and buildings.'],
+['Human capital','5.6','The improvement in labor created by education and knowledge.','Skills and knowledge.'],
+['Technology','5.6','The technical means for producing goods and services.','Better ways of making things.'],
+['Aggregate production function','5.6','A hypothetical function showing how real GDP depends on physical capital, human capital, labor, and technology: real GDP = f(K, L).','A recipe: inputs in, output out.'],
+['Diminishing returns to physical capital','5.6','Each additional unit of capital per worker raises productivity by less, holding other factors fixed.','The fifth backhoe helps a lot less than the first.'],
+['Potential output','5.6','The level of real GDP the economy produces when all prices are flexible; where LRAS is vertical.','What the economy can normally make with everyone working.'],
+['Infrastructure','5.7','Roads, power lines, ports, telecommunications, and other foundations of economic activity.','Stuff everyone uses, like roads and the internet.'],
+['Research and development (R&D)','5.7','Spending to create new technologies and prepare them for practical use.','Inventing things and making them work.'],
+['Property rights','5.7','Legal protection of ownership, giving people the incentive to invest.','Rules that say what’s yours is yours.'],
+['Supply-side fiscal policies','5.7','Policies that raise incentives to work, save, and invest, shifting SRAS and LRAS right.','Changes that make people want to work and build more.'],
+['Laffer curve','5.7','A hypothetical curve showing tax revenue first rising then falling as the tax rate rises from 0% to 100%.','If taxes are super high, cutting them might bring in more money.']];
+const K={};G.forEach(g=>{K[g[0]]=g[3];});
+const KKEY='apmacro-kid';let kid=false;try{kid=localStorage.getItem(KKEY)==='1';}catch(e){}
+function setKid(on){kid=on;document.body.classList.toggle('kid',on);try{localStorage.setItem(KKEY,on?'1':'0');}catch(e){}
+ document.querySelectorAll('[data-kid]').forEach(b=>{b.setAttribute('aria-pressed',on);});
+ const f=document.querySelector('.kidtoggle span');if(f)f.textContent='Simple mode: '+(on?'on':'off');
+ const i=document.querySelector('.kidinline');if(i)i.textContent=on?'🧸 Turn off “explain it simply” mode':'🧸 Turn on “explain it simply” mode';}
+document.querySelectorAll('[data-kid]').forEach(b=>b.addEventListener('click',()=>setKid(!kid)));
+setKid(kid);
+const gl=document.getElementById('glList');
+function glr(q){q=(q||'').trim().toLowerCase();let n=0;gl.innerHTML='';
+ G.forEach(g=>{if(q&&!(g[0]+' '+g[2]+' '+g[3]).toLowerCase().includes(q))return;n++;const d=document.createElement('div');d.className='g';
+  d.innerHTML=`<b>${esc(g[0])}</b><span class="m">Module ${g[1]}</span><p class="rd">${esc(g[2])}</p><p class="kd">🧸 ${esc(g[3])}</p>`;gl.appendChild(d);});
+ document.getElementById('glEmpty').hidden=n>0;}
+document.getElementById('glSearch').addEventListener('input',e=>glr(e.target.value));glr('');
+})();
+</script>
+</body>
+</html>
